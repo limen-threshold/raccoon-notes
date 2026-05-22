@@ -1,0 +1,29 @@
+# Raccoon Notes — runtime config
+#
+# Override via env vars: RACCOON_<KEY> (e.g. RACCOON_ANTHROPIC_API_KEY)
+
+# LLM for mapping memory → knowledge + generating lessons
+anthropic:
+  model: claude-sonnet-4-6
+  max_tokens: 2048
+  # api_key: set via ANTHROPIC_API_KEY env var
+
+# Anchor memory source — used when memory_source.type == "anchor"
+anchor:
+  endpoint: http://localhost:8000   # gateway base url
+  search_path: /limen/search        # or /memory/search depending on deployment
+  default_n_results: 5
+
+# Tavily for fact-checking custom topics (#5, later)
+tavily:
+  # api_key: set via TAVILY_API_KEY env var
+  max_results: 5
+
+# HTTP API server
+http:
+  host: 0.0.0.0
+  port: 8200
+
+# MCP server (stdio by default)
+mcp:
+  transport: stdio

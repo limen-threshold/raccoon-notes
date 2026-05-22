@@ -1,0 +1,5 @@
+anthropic>=0.40.0
+httpx>=0.27.0
+pyyaml>=6.0
+# server/http_server.py (later): fastapi, uvicorn
+# server/mcp_server.py (later): mcp
