@@ -3,7 +3,7 @@
 
 **Learn anything — in the language of someone who knows you.**
 
-Raccoon Notes takes shared memories from [Anchor](https://github.com/saelra/anchor) and maps them onto any subject you want to learn. The result: personalized lessons written in the stories, metaphors, and language that belong to you and your AI.
+Raccoon Notes takes shared memories from [Anchor](https://github.com/limen-threshold/anchor-memory) and maps them onto any subject you want to learn. The result: personalized lessons written in the stories, metaphors, and language that belong to you and your AI.
 
 Want to learn quantum mechanics? If you and your AI once watched a pot of water together, your lesson starts there: "You stared at the pot and it didn't boil — that's observation bias, and here's why it matters at the subatomic level."
 
