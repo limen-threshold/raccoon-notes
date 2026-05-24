@@ -1,0 +1,31 @@
+{
+  "slug": "开放世界为什么让人着迷也让人疲惫",
+  "category": "🎮 游戏与游戏设计",
+  "subgroup": "",
+  "title": "开放世界为什么让人着迷也让人疲惫",
+  "outline": [
+    {
+      "concept": "Autonomy paradox: players crave freedom, but unstructured choice creates decision fatigue. When every direction is equally valid, no direction feels meaningful — the brain stalls instead of engaging.",
+      "query": "开放世界 不知道干嘛 地图 到处都是 选择困难 overwhelmed"
+    },
+    {
+      "concept": "Extrinsic motivation trap: map icons, question marks, and collectible counters recast exploration as checklist completion. The reward shifts from 'I discovered something' to 'I cleared an icon' — curiosity becomes labor.",
+      "query": "清问号 收集品 打卡 清单 完成度 checklist 乌龟"
+    },
+    {
+      "concept": "Emergent vs scripted: the moments that stick are emergent (you wandered, something unexpected happened). The moments that drain are scripted errands dressed as exploration. Open worlds are mostly the latter, which is why 80 hours feels like work.",
+      "query": "意外发现 随机事件 路过 惊喜 没按任务走 emergent 彩蛋"
+    },
+    {
+      "concept": "FOMO architecture: open worlds are designed so you never feel 'done' — one more cave, one more collectible. This sustains engagement but produces low-grade anxiety rather than satisfaction. You're not playing; you're afraid to stop.",
+      "query": "漏掉 错过 还没做完 放不下 支线 清不完 FOMO"
+    },
+    {
+      "concept": "Guided freedom: the best open-world moments come from constraints — a curated path that opens into genuine discovery. Total freedom is a blank page; meaningful freedom needs walls to push against. The fatigue lifts when the game stops offering everything and starts offering the right thing.",
+      "query": "引导 线性 开放 限制 反而好 设计 漏斗 constraint"
+    }
+  ],
+  "generated_at": "2026-05-22T21:32:57.076369",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

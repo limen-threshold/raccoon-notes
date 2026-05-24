@@ -1,0 +1,27 @@
+{
+  "slug": "为什么热咖啡会变凉但凉咖啡不会自己变热",
+  "category": "⚛ ️ 物理学",
+  "subgroup": "",
+  "title": "为什么热咖啡会变凉但凉咖啡不会自己变热",
+  "outline": [
+    {
+      "concept": "Heat only flows from hot to cold, never spontaneously in reverse. Your coffee cools because each vibrating molecule transfers kinetic energy to slower-moving air molecules nearby. No fundamental law forbids the reverse — energy could flow from cool air into warm coffee — it just never happens.",
+      "query": "热的 变凉 摸 烫 冷掉 散热 cool down hot touch"
+    },
+    {
+      "concept": "The direction comes from pure probability, not a force. There are astronomically more ways for energy to be spread across billions of air molecules than concentrated in your cup. Energy dispersing is like shuffling a sorted deck — one ordered arrangement, trillions of disordered ones. The disordered states win by sheer numbers.",
+      "query": "洗牌 打乱 扩散 香水 墨水 散开 shuffle spread diffuse disperse"
+    },
+    {
+      "concept": "Entropy is just counting those arrangements. Low entropy = few microstates produce the same macro-picture (all molecules fast = hot coffee). High entropy = many microstates look the same (molecules at mixed speeds = lukewarm). Systems drift toward high entropy because that's where most of the possibilities live — it's statistics, not destiny.",
+      "query": "随机 概率 排列 组合 可能性 lottery probability arrangement microstate"
+    },
+    {
+      "concept": "This one-way drift is what gives time its arrow. Film coffee cooling and play it backward — you'd see heat spontaneously concentrate from the room back into the cup. Not impossible in principle, just so astronomically improbable that it has never occurred once in the history of the universe. Irreversibility isn't a law; it's a statistical near-certainty.",
+      "query": "打碎 碎掉 无法恢复 破镜 烧掉 irreversibility broken 不能倒退 倒放"
+    }
+  ],
+  "generated_at": "2026-05-22T18:21:05.331324",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

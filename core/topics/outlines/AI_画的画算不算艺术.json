@@ -1,0 +1,27 @@
+{
+  "slug": "AI_画的画算不算艺术",
+  "category": "🤖 AI 与人工智能",
+  "subgroup": "",
+  "title": "AI 画的画算不算艺术",
+  "outline": [
+    {
+      "concept": "The intentionality assumption: when people say 'AI art isn't art,' they're testing for human intention behind each creative decision. But this test already fails for photography, readymades, and aleatoric music — art forms where the artist doesn't control every mark. The real question isn't whether intention exists, but where it sits in the process.",
+      "query": "摄影 构图 选择 意图 intention photography ready-made"
+    },
+    {
+      "concept": "Selection as authorship: with AI image generators, the creative act shifts from production to curation. You prompt, generate hundreds, keep a few, refine one. This is structurally identical to a photographer shooting 100 frames and selecting one — the authorship lives in the choosing, not the making.",
+      "query": "挑选 筛选 生成 curate select generate prompt 修图"
+    },
+    {
+      "concept": "Institutional legitimation: 'Is it art?' is never settled by examining the object alone. It's settled by the ecosystem — galleries exhibit it, critics debate it, collectors buy it, communities form around it. Duchamp's urinal proved this. AI art becomes art when the art world treats it as art.",
+      "query": "杜尚 展览 画廊 收藏 gallery exhibit Duchamp contemporary art NFT"
+    },
+    {
+      "concept": "The aesthetic experience bypass: the most concrete test — does the work produce genuine aesthetic experience in viewers? If someone feels awe, unease, or recognition looking at an AI image, the core function of art has been performed. The experience is real regardless of how the trigger was made. The feeling doesn't check credentials.",
+      "query": "震撼 感动 共鸣 awe beauty emotion 感觉 喜欢"
+    }
+  ],
+  "generated_at": "2026-05-22T20:40:05.290383",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

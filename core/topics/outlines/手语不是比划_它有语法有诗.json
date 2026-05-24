@@ -1,0 +1,27 @@
+{
+  "slug": "手语不是比划_它有语法有诗",
+  "category": "🗣 ️ 语言学",
+  "subgroup": "",
+  "title": "手语不是比划——它有语法有诗",
+  "outline": [
+    {
+      "concept": "Sign languages aren't universal pantomime — ASL and Chinese Sign Language are mutually unintelligible, as different as English and Mandarin. The intuition that deaf people everywhere 'just gesture the same way' is flat wrong.",
+      "query": "手语 不同国家 聋人 翻译 比划 看不懂"
+    },
+    {
+      "concept": "Signs decompose into meaningless sub-units — handshape, location, movement, palm orientation, facial expression — that combine by strict rules, exactly like phonemes in speech. Change one feature and you've changed the word, just like swapping /b/ for /p/ turns 'bat' into 'pat.'",
+      "query": "学手语 手型 打错 差一点 意思全变 手势细节"
+    },
+    {
+      "concept": "Sign languages encode grammar spatially, not sequentially. A signer places referent A on their left, B on their right, then moves a verb from A's location toward B — that directional movement IS subject-verb-object. Space does what word order does in speech.",
+      "query": "用手指方向 代词 空间 指来指去 位置 代替语法"
+    },
+    {
+      "concept": "Sign language poetry exploits visual patterns: repeating handshapes works like alliteration, rhythmic movement creates meter, and a 'visual pun' layers same-handshape different-movement signs the way spoken poetry layers rhyme. The medium changes; the impulse to make art from structure doesn't.",
+      "query": "手语诗 视觉 韵律 美感 表演 重复 手型"
+    }
+  ],
+  "generated_at": "2026-05-22T20:27:55.117014",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

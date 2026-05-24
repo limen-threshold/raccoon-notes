@@ -1,0 +1,27 @@
+{
+  "slug": "地球的核心比太阳表面还热",
+  "category": "🌍 地球科学与地理",
+  "subgroup": "",
+  "title": "地球的核心比太阳表面还热",
+  "outline": [
+    {
+      "concept": "Earth's inner core reaches ~5400°C — comparable to the Sun's photosphere at ~5500°C. The surprise works because we instinctively equate 'surface' with 'representative,' but the Sun's visible surface is actually its coolest layer, not a measure of its whole.",
+      "query": "火山 岩浆 地下 温度 烫 纪录片"
+    },
+    {
+      "concept": "Three sources sustain this extreme heat: primordial heat from gravitational accretion (planetesimal collisions converting kinetic energy to thermal), ongoing radioactive decay of uranium-238, thorium-232, and potassium-40 in the core and lower mantle, and latent heat released as the liquid outer core slowly crystallizes onto the solid inner core.",
+      "query": "暖宝宝 发热 持续 久 化学反应 不会凉"
+    },
+    {
+      "concept": "The mantle is an extraordinarily poor thermal conductor — silicate rock insulates the core so effectively that heat takes billions of years to reach the surface. Meanwhile, immense pressure raises iron's melting point, keeping the inner core solid at temperatures that would vaporize the same iron at surface pressure.",
+      "query": "保温杯 热水 冬天 冷得慢 隔热 高压锅"
+    },
+    {
+      "concept": "The Sun's core is ~15 million °C — thousands of times hotter than its surface. The real insight: Earth achieves Sun-surface-level heat without any fusion, powered only by gravitational collapse and radioactive decay. A rocky planet's interior can rival a star's skin temperature through entirely different physics.",
+      "query": "太阳 晒 感觉热 表面 想象 真的假的"
+    }
+  ],
+  "generated_at": "2026-05-22T18:43:43.843407",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

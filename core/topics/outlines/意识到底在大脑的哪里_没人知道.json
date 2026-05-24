@@ -1,0 +1,31 @@
+{
+  "slug": "意识到底在大脑的哪里_没人知道",
+  "category": "🧩 神经科学",
+  "subgroup": "",
+  "title": "意识到底在大脑的哪里——没人知道",
+  "outline": [
+    {
+      "concept": "Vision lives in V1, movement in motor cortex, language in Broca's area — but consciousness has no such address. No single brain lesion eliminates consciousness while sparing all other functions. This is the basic anomaly: every other mental faculty maps to a place, consciousness doesn't.",
+      "query": "大脑功能定位 脑区损伤 意识消失 lesion specific area 失去意识"
+    },
+    {
+      "concept": "We can find neural correlates of consciousness (NCC) — like widespread prefrontal-parietal activation during conscious perception — but correlation ≠ explanation. Knowing which regions light up when you're conscious doesn't explain why that activity feels like anything at all.",
+      "query": "fMRI 意识 脑区激活 prefrontal parietal 看到红色 主观体验 相关不等于因果"
+    },
+    {
+      "concept": "The hard problem / explanatory gap: even a complete neural map can't bridge from 'thalamocortical loops firing at 40Hz' to 'what it's like to taste coffee.' The gap is structural — you can describe every mechanism and still have no account of why there's subjective experience at all.",
+      "query": "感受质 qualia 解释鸿沟 神经元放电 为什么有感觉 hard problem 主观"
+    },
+    {
+      "concept": "Leading theories treat consciousness as a process property, not a location: Global Workspace Theory says it's information broadcast widely across cortical regions; Integrated Information Theory (Φ) says it's irreducibly integrated information. Both imply consciousness isn't 'in' a spot — it's something the system does.",
+      "query": "global workspace 全局广播 integrated information 意识理论 不是位置 Φ process"
+    },
+    {
+      "concept": "If consciousness is a process (like 'running' isn't located in one leg), then 'where is consciousness?' may be a category error — the question presupposes consciousness is the kind of thing that has coordinates. It might simply not be that kind of thing.",
+      "query": "奔跑在哪 类别错误 category mistake 意识位置 问错问题 process not place"
+    }
+  ],
+  "generated_at": "2026-05-22T21:00:09.671104",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

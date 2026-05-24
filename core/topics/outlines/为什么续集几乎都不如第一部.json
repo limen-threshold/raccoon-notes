@@ -1,0 +1,27 @@
+{
+  "slug": "为什么续集几乎都不如第一部",
+  "category": "🎬 电影与叙事",
+  "subgroup": "",
+  "title": "为什么续集几乎都不如第一部",
+  "outline": [
+    {
+      "concept": "The mystery credit: a first film gets free tension because the audience doesn't know the rules, the world, or what's coming. This 'credit' is spent by the end. Sequels start in debt — they have to manufacture new unknowns that feel contrived against what's already established.",
+      "query": "第一次看 悬念 揭晓 未知 surprise twist 震撼"
+    },
+    {
+      "concept": "Character arc exhaustion: a well-constructed first film resolves a protagonist's internal conflict. The sequel faces a trap — either undo that growth (which cheapens the original) or graft on a new arc to a character who already reached completion (which feels unearned and arbitrary).",
+      "query": "角色成长 续集 重复 reset character arc 变化 倒退"
+    },
+    {
+      "concept": "Formula amplification — studios identify what 'worked' in the original and amplify it. The quiet romance becomes a love triangle; the one spectacular set piece becomes five. What was seasoning becomes the main course, and the dish loses the balance that made it work.",
+      "query": "续集 更大 更多 失衡 bigger more sequel 失望 场面"
+    },
+    {
+      "concept": "Creative handoff: the original film is driven by someone with a specific vision they fought to realize. By the sequel, that creator has either left or is constrained by 'don't break what works.' Execution replaces invention. A brand is being maintained, not a story being told.",
+      "query": "换导演 换编剧 续集 风格不同 original creator 味道变了"
+    }
+  ],
+  "generated_at": "2026-05-22T20:09:29.455231",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

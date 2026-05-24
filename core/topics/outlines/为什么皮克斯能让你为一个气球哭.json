@@ -1,0 +1,27 @@
+{
+  "slug": "为什么皮克斯能让你为一个气球哭",
+  "category": "🎬 电影与叙事",
+  "subgroup": "",
+  "title": "为什么皮克斯能让你为一个气球哭",
+  "outline": [
+    {
+      "concept": "Pixar makes you cry over objects—not people—by exploiting symbolic attachment: meaning accumulates onto an object through repeated shared experience. The balloon in Up isn't helium and latex; it's an entire marriage compressed into one thing you can see.",
+      "query": "旧物 纪念品 舍不得扔 东西承载回忆 keepsake meaning"
+    },
+    {
+      "concept": "Montage compression forces your brain to fill the gaps. The opening of Up shows 5 minutes for 50 years of marriage—your mind auto-completes the missing scenes with your own relationship memories. The ellipsis does more emotional work than any explicit scene.",
+      "query": "回忆闪过 短暂瞬间 时间压缩 遗漏的片段 montage gaps"
+    },
+    {
+      "concept": "You're not crying for the object. You're crying for the severance of the person–object bond. Pixar makes the thing stand in for the person, then breaks the connection—so losing the balloon registers as losing the person themselves.",
+      "query": "丢东西 难过 重要的东西不见了 分离 断开 connection lost"
+    },
+    {
+      "concept": "Pixar deliberately picks physically impermanent objects—balloons float away, toys are outgrown, childhood ends. The object's built-in fragility mirrors the emotional fragility it carries. The medium is the message: anything that can drift, will drift.",
+      "query": "易碎 消逝 抓不住 fragile fading slipping away 留不住"
+    }
+  ],
+  "generated_at": "2026-05-22T20:11:17.986432",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

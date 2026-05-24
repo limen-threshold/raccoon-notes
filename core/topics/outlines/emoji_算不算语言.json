@@ -1,0 +1,27 @@
+{
+  "slug": "emoji_算不算语言",
+  "category": "🗣 ️ 语言学",
+  "subgroup": "",
+  "title": "emoji 算不算语言",
+  "outline": [
+    {
+      "concept": "Emoji fails the 'displacement' test — one of the core design features of human language is the ability to communicate about things absent in time, space, or reality (past events, hypotheticals, abstract categories). Stripped of text, emoji can only point at things present or recently felt. You can 🐶 about a dog in front of you, but you can't emoji about the concept of domestication or a dog that will exist tomorrow.",
+      "query": "只用emoji表达复杂意思 失败 打不出来 抽象概念"
+    },
+    {
+      "concept": "Emoji functions as digital paralanguage — in face-to-face speech, gesture, tone, and facial expression carry the social and emotional layer of meaning. Emoji does this for text: softening a request, marking irony, adding warmth. It doesn't replace grammar; it wraps around it. You're not speaking in emoji; you're gesturing with it.",
+      "query": "emoji语气 加表情才不生硬 文字冷漠 加个😂"
+    },
+    {
+      "concept": "Emoji has collocations, not syntax — people develop fixed combinations (😭💕, 🔥👍) that work like idioms, but these are frozen chunks, not productive rules. Real language has recursion: you can embed clauses within clauses infinitely. Emoji sequences max out at 2-3 symbols before meaning collapses into ambiguity.",
+      "query": "emoji组合 常用搭配 连发一堆表情 看不懂"
+    },
+    {
+      "concept": "The language/not-language boundary is a moving target — sign languages were dismissed as 'mere gesture' for centuries; writing was considered a secondary recording of speech, not language itself. Emoji is a visual semiotic system evolving in real time. Asking whether it 'counts' may be the wrong question — it's a new communicative layer that does things text alone cannot, and that's worth taking seriously on its own terms.",
+      "query": "手势也算语言 表情包代替文字 不说话也能懂"
+    }
+  ],
+  "generated_at": "2026-05-22T20:25:58.572522",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

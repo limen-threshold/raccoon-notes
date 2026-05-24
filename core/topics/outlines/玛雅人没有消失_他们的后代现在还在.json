@@ -1,0 +1,27 @@
+{
+  "slug": "玛雅人没有消失_他们的后代现在还在",
+  "category": "🏛 ️ 考古与人类学",
+  "subgroup": "",
+  "title": "玛雅人没有消失——他们的后代现在还在",
+  "outline": [
+    {
+      "concept": "「玛雅人消失了」是一个混淆了政治崩溃与人口灭绝的叙事。公元800-900年崩溃的是城邦制度和神圣王权（k'uhul ajaw），不是人。今天约有700万玛雅后裔生活在墨西哥、危地马拉、伯利兹等地。",
+      "query": "以为 消失 其实 还在 原住民 后代 still alive indigenous descendants"
+    },
+    {
+      "concept": "古典期崩溃的本质是去中心化——人们离开城市中心，回到乡村继续生活。人口没有锐减，只是不再修建石碑和神庙了。你看到的「废墟」是被放弃的政治中心，不是被抛弃的家园。",
+      "query": "离开 城市 回农村 制度 崩塌 人没走 abandoned city people stayed rural"
+    },
+    {
+      "concept": "文化连续性在语言上最直接：30多种玛雅语言至今仍在使用。milpa农业（玉米、豆类、南瓜轮作）、纺织图案、社区仪式都是活的传统，不是博物馆里的遗存。",
+      "query": "古老 语言 还在说 传统 做法 没变 玉米 种植 still speaking ancient language farming"
+    },
+    {
+      "concept": "「消失」叙事本身是殖民工具——如果玛雅人已经不在了，他们的土地就是「无主之地」，他们的诉求就是考古问题而非政治问题。危地马拉内战中对玛雅社区的屠杀，墨西哥政府对其土地权利的否认，都依赖这个叙事。",
+      "query": "原住民 土地 被 拿走 说他们 不存在 殖民 借口 indigenous land rights erased colonial"
+    }
+  ],
+  "generated_at": "2026-05-22T19:17:06.979237",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

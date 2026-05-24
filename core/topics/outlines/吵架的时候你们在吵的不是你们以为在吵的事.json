@@ -1,0 +1,27 @@
+{
+  "slug": "吵架的时候你们在吵的不是你们以为在吵的事",
+  "category": "💔 关系与亲密",
+  "subgroup": "",
+  "title": "吵架的时候你们在吵的不是你们以为在吵的事",
+  "outline": [
+    {
+      "concept": "The surface topic is a proxy. Arguments about concrete things—chores, lateness, tone—are almost always arguments about what the thing symbolizes: 'do you see me?', 'am I a priority?', 'can I trust you?' The content is just the vehicle; the real question is underneath.",
+      "query": "吵架 小事 上纲上线 因为迟到 忘记 争吵导火索"
+    },
+    {
+      "concept": "When connection feels threatened, your attachment system fires like it's a survival emergency. The disproportionate rage or panic isn't about the dishes—it's your nervous system treating a missed bid for connection as a threat of abandonment, using the urgency of someone who's actually endangered.",
+      "query": "失控 反应过度 委屈 被抛弃感 情绪崩溃 吵架时"
+    },
+    {
+      "concept": "Pursue-withdraw cycle: one person pushes (criticizes, demands answers, won't let go) trying to force reconnection; the other retreats (shuts down, walks away, goes silent) trying to stop the bleeding. Each move confirms the other's worst fear—the pursuer feels abandoned by the silence, the withdrawer feels attacked by the demands. The original grievance is now irrelevant.",
+      "query": "冷战 追问 逃避 沉默 越吵越凶 一方关机 不说话"
+    },
+    {
+      "concept": "Anger is armor over a soft need. Criticism is a 'protest behavior'—the hard shell around a vulnerable want. 'You never help' = 'I'm overwhelmed and I need you to care.' 'You're always on my case' = 'I'm afraid I'll never be enough.' The fight persists because armor can't get a need met; only revealing the soft part can.",
+      "query": "说不出口 其实是想要 被在乎 委屈 愤怒背后 真正想要的"
+    }
+  ],
+  "generated_at": "2026-05-22T21:37:34.097397",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

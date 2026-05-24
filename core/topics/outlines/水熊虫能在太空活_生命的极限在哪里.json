@@ -1,0 +1,27 @@
+{
+  "slug": "水熊虫能在太空活_生命的极限在哪里",
+  "category": "🧬 生物与生命科学",
+  "subgroup": "",
+  "title": "水熊虫能在太空活——生命的极限在哪里",
+  "outline": [
+    {
+      "concept": "水熊虫不是「扛住」极端环境，而是进入隐生状态（cryptobiosis）——代谢率降至正常的0.01%以下，生命几乎完全暂停。这不是增强防御，是切换存在模式：从「活着」变成「没死」。",
+      "query": "暂停 停滞 休眠 冬眠 假死 suspended animation 代谢停止"
+    },
+    {
+      "concept": "隐生的关键机制是海藻糖（trehalose）替代水分——脱水时海藻糖在细胞内形成玻璃态（vitrification），把蛋白质和膜结构锁在原位，防止无水环境下分子结构崩塌。糖变成玻璃，细胞变成琥珀。",
+      "query": "脱水 干燥 玻璃化 糖 保护 结构 trehalose vitrification glass"
+    },
+    {
+      "concept": "但隐生解决不了辐射——DNA照样会被打断。水熊虫有Dsup蛋白（Damage Suppressor），像毯子一样包裹DNA，物理遮挡辐射直接损伤，加上苏醒后超高效的DNA修复能力，能把碎片重新拼回。",
+      "query": "辐射 DNA修复 防护 断裂 拼接 损伤 radiation shield repair protein"
+    },
+    {
+      "concept": "生命极限的真正边界不是「多热多冷多干」，而是分子信息（DNA/蛋白质结构）能否保持完整到可复制。只要信息能存住——靠暂停、靠玻璃化、靠修复——生命就能越过那个阈值。极端生存的本质是信息保全问题。",
+      "query": "极限 边界 存活 条件 信息 保存 extremophile boundary survival information"
+    }
+  ],
+  "generated_at": "2026-05-22T18:17:45.990102",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "儿童权利是最近一百年才有的概念",
+  "category": "⚖ ️ 法律与权利",
+  "subgroup": "",
+  "title": "儿童权利是最近一百年才有的概念",
+  "outline": [
+    {
+      "concept": "For most of human history, children had no independent legal existence — they were property. Roman patria potestas gave fathers literal power of life and death over offspring; English common law treated children as chattel. A child's interests were legally inseparable from the father's will.",
+      "query": "父亲 权威 打骂 管教 孩子 听话"
+    },
+    {
+      "concept": "The first children's laws weren't about rights — they were about protection. Early 20th-century child labor bans and compulsory schooling framed children as vulnerable objects needing adult intervention, not as people with their own voice. The 1924 Geneva Declaration still positioned adults as saviors, children as recipients.",
+      "query": "童工 工厂 上学 保护 未成年人 被保护"
+    },
+    {
+      "concept": "The 1989 UN Convention on the Rights of the Child was the pivot: it introduced 'participation rights' alongside protection. Article 12 says children have the right to express views in matters affecting them. This reframed children from objects of adult concern to subjects with legal standing — the first time in international law.",
+      "query": "意见 听我的 决定 选择 自己做主 发言权"
+    },
+    {
+      "concept": "The protection-vs-autonomy tension is still unresolved. Children can be tried as adults in some US states but can't consent to their own medical care; custody battles treat children's preferences as advisory, not binding. 'Best interests of the child' usually means adults deciding what's best without asking the child.",
+      "query": "抚养权 跟谁 法官 争 孩子 意愿 替你决定"
+    }
+  ],
+  "generated_at": "2026-05-22T19:49:07.201343",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

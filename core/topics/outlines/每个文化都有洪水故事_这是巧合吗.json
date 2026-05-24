@@ -1,0 +1,31 @@
+{
+  "slug": "每个文化都有洪水故事_这是巧合吗",
+  "category": "🐉 神话与民间传说",
+  "subgroup": "",
+  "title": "每个文化都有洪水故事——这是巧合吗",
+  "outline": [
+    {
+      "concept": "Flood myths across disconnected cultures don't just share 'big water' — they share specific plot beats: divine warning, one chosen survivor, building a vessel, saving animals, repopulating the earth. That structural specificity, appearing in cultures with zero contact, is the real puzzle.",
+      "query": "洪水 诺亚 大禹 方舟 相似 不同文化 神话故事"
+    },
+    {
+      "concept": "Between ~18,000 and 6,000 years ago, global sea levels rose roughly 120 meters as ice age glaciers melted. That's not a local disaster — that's water permanently swallowing coastlines worldwide, generation after generation. Nearly every coastal human population lived through this slow-motion catastrophe.",
+      "query": "海边 水位上涨 搬家 淹没 海平面 冰川 melting coast"
+    },
+    {
+      "concept": "Humans don't randomly encounter floods — we self-select into flood zones. River valleys, deltas, coastlines: that's where the food, trade routes, and fertile soil concentrate. Flood experience is universal because we keep choosing to live exactly where floods happen.",
+      "query": "住在河边 洪水 水灾 河谷 选择 便利 floodplain settle"
+    },
+    {
+      "concept": "Flood myths function as cultural reset buttons. Every society needs to explain why the old world ended and this one began. A flood that wipes everything clean is narrative technology for processing discontinuity: moral failure → catastrophe → clean slate → new order.",
+      "query": "灾后 重建 重新开始 一切归零 告别过去 末日 restart"
+    },
+    {
+      "concept": "The pattern isn't one cause — it's a convergence stack. Real catastrophic flooding + universal exposure (settlement bias) + narrative utility (reset stories) + human minds converging on similar templates = near-inevitable cross-cultural pattern. Remove any layer and the coincidence gets weaker.",
+      "query": "巧合 不是偶然 多个原因 必然 叠加 多重因素 coincidence convergence"
+    }
+  ],
+  "generated_at": "2026-05-22T19:22:34.641668",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

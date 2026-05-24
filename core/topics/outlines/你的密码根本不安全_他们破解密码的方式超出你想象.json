@@ -1,0 +1,27 @@
+{
+  "slug": "你的密码根本不安全_他们破解密码的方式超出你想象",
+  "category": "🔧 计算机与技术",
+  "subgroup": "",
+  "title": "你的密码根本不安全——他们破解密码的方式超出你想象",
+  "outline": [
+    {
+      "concept": "Credential stuffing — most account takeovers don't involve 'cracking' at all. Attackers take username-password pairs leaked from one breach and automate trying them on hundreds of other sites. If you reuse a password, one leak anywhere compromises you everywhere.",
+      "query": "同一密码 多个网站 账号被盗 数据泄露 重复使用"
+    },
+    {
+      "concept": "Wordlist attacks destroy 'clever' passwords — attackers don't guess randomly. They use massive lists of real passwords from past breaches (billions of entries). Passwords like 'P@ssw0rd!' or 'Qwerty123!' are already in every wordlist because millions of people had the same clever idea.",
+      "query": "复杂密码 字典攻击 常见密码 替换符号 破解工具"
+    },
+    {
+      "concept": "Offline hash cracking has no speed limit — when a site's password database is stolen, the real attack happens offline. With modern GPUs, attackers test billions of hash combinations per second with no rate limiting. Even strong hashing only slows this down; it doesn't stop it for weak passwords.",
+      "query": "密码哈希 GPU破解 数据库泄露 离线暴力 hash rainbow"
+    },
+    {
+      "concept": "Your weakest site owns your entire identity — the security of all your accounts is determined by the worst site you've reused a password on. A tiny forum with terrible security gets breached, and suddenly your email, banking, everything is unlocked if the password is the same.",
+      "query": "小网站 注册 安全性差 同一个密码 论坛账号"
+    }
+  ],
+  "generated_at": "2026-05-22T20:32:41.552614",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

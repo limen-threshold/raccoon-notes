@@ -1,0 +1,31 @@
+{
+  "slug": "UI_设计的暗模式_如何用设计让你多花钱多刷手机",
+  "category": "🎨 艺术与设计",
+  "subgroup": "",
+  "title": "UI 设计的暗模式——如何用设计让你多花钱多刷手机",
+  "outline": [
+    {
+      "concept": "Dark patterns are interface choices that exploit predictable cognitive shortcuts to benefit the company at your expense — they work not because you're stupid, but because your brain conserves effort by running on defaults and heuristics, and designers know exactly which heuristics to hijack.",
+      "query": "暗模式 误导 设计套路 dark pattern 被骗 点击 误操作"
+    },
+    {
+      "concept": "The default effect: pre-checked boxes and pre-selected options exploit inertia — changing from a default requires active effort, and most people stick with whatever's already chosen even when they'd prefer otherwise. This is why 'auto-renew' is always on by default.",
+      "query": "默认勾选 自动续费 pre-selected 预选 忘记取消 订阅 默认选项"
+    },
+    {
+      "concept": "Friction asymmetry (roach motel): paths that benefit the company are frictionless — one click to subscribe — while paths that benefit you are buried — five clicks plus a phone call to cancel. This exploits your tendency to take the path of least resistance every time.",
+      "query": "取消订阅 退订 找不到 客服电话 隐藏 button buried 难找"
+    },
+    {
+      "concept": "Variable reward loop: social feeds deliver content unpredictably — you never know if the next swipe is rewarding or boring, and that uncertainty (not pleasure) drives compulsive scrolling. It's the same mechanism as a slot machine: the occasional jackpot keeps you pulling the lever.",
+      "query": "刷手机 停不下来 抖音 TikTok 下一个 刷到 刷不到 熬夜"
+    },
+    {
+      "concept": "These patterns compound: a default subscription you didn't notice + a cancellation process that's deliberately confusing + a feed that keeps you scrolling past the 'manage subscription' page — each bias reinforces the others, making the total manipulation far greater than any single technique alone.",
+      "query": "套路叠加 忘记取消 没注意到 一直刷 复合 多个陷阱"
+    }
+  ],
+  "generated_at": "2026-05-22T20:00:57.692595",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

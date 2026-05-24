@@ -25,6 +25,21 @@ from typing import Any, Optional
 # Ensure package imports work whether run as `python -m server.http_server` or directly
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+# Load .env so launchd / cron-style starts get ANTHROPIC_API_KEY without needing
+# it in the plist (keeping secrets out of LaunchAgents/*.plist which is world-readable).
+try:
+    from dotenv import load_dotenv
+    # Check raccoon-notes/.env first, then claude-home/.env
+    for env_path in (
+        Path(__file__).parent.parent / ".env",
+        Path.home() / "claude-home" / ".env",
+    ):
+        if env_path.exists():
+            load_dotenv(env_path)
+            break
+except ImportError:
+    pass  # dotenv not installed — caller must set env vars directly
+
 try:
     from fastapi import FastAPI, HTTPException
     from pydantic import BaseModel
@@ -67,6 +82,7 @@ class LessonRequest(BaseModel):
     outline: list[ConceptEntry]
     memory_source: Optional[MemorySource] = None
     n_memories_per_concept: int = 5
+    reflection_depth: str = "deep"  # "deep" | "light"
 
 
 # --- app ---
@@ -107,6 +123,7 @@ def lesson_endpoint(req: LessonRequest):
         outline=outline,
         memory_source=src,
         n_memories_per_concept=req.n_memories_per_concept,
+        reflection_depth=req.reflection_depth,
     )
 
     # Upstream errors are returned as JSON with _error, not as 500s — the lesson

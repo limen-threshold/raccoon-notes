@@ -1,0 +1,27 @@
+{
+  "slug": "量子计算机不是更快的电脑_它根本是另一种东西",
+  "category": "🔧 计算机与技术",
+  "subgroup": "",
+  "title": "量子计算机不是更快的电脑——它根本是另一种东西",
+  "outline": [
+    {
+      "concept": "Classical bits are either 0 or 1; qubits hold probability amplitudes for both simultaneously, and these amplitudes can cancel each other out through interference — something no classical bit can do. This isn't 'more speed,' it's a different kind of information that doesn't even exist in classical computing.",
+      "query": "并行计算 多线程 同时处理 加速 游戏卡顿"
+    },
+    {
+      "concept": "Superposition is not 'trying all answers at once' — it's creating a wave-like state where wrong answers interfere destructively (cancel) and right answers interfere constructively (amplify). A quantum algorithm is essentially a choreography of interference, not brute-force parallel search.",
+      "query": "暴力破解 枚举 穷举 试密码 暴力搜索"
+    },
+    {
+      "concept": "Quantum speedup only exists for problems with specific structure that interference can exploit — like periodicity (Shor's factoring) or oracle symmetry (Grover's search). For most everyday computations — sorting, rendering, database queries — a quantum computer offers zero advantage or is worse.",
+      "query": "跑分 性能提升 加速渲染 编译慢 算法优化"
+    },
+    {
+      "concept": "Quantum computers will never replace classical ones — they're coprocessors for narrow problem classes. The realistic architecture is hybrid: classical systems handle I/O, control, and most logic, while quantum hardware tackles the specific subroutines where interference gives an edge.",
+      "query": "GPU加速 显卡计算 协处理器 硬件加速 专用芯片"
+    }
+  ],
+  "generated_at": "2026-05-22T20:38:30.617424",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "为什么你的父母更容易相信假消息",
+  "category": "🧭 信息与媒体",
+  "subgroup": "",
+  "title": "为什么你的父母更容易相信假消息",
+  "outline": [
+    {
+      "concept": "Older adults have a higher trust default — they tend to accept incoming information rather than flag it for suspicion. This is the positivity effect in cognitive aging: the brain's 'reject' threshold literally rises with age, so 'that doesn't sound right' fires slower and weaker.",
+      "query": "父母 转发 相信 没怀疑 轻信"
+    },
+    {
+      "concept": "Repeated exposure creates illusory truth — seeing a claim multiple times makes it feel true regardless of accuracy. Older adults rely more on this familiarity heuristic because deliberate fact-checking is cognitively costly; 'I've seen this before' shortcuts to 'this must be true.'",
+      "query": "重复 看到 同一条消息 多次 谣言 熟悉"
+    },
+    {
+      "concept": "Source monitoring declines with age — they remember the claim but forget where it came from. A headline from an anonymous blog becomes indistinguishable from a verified news report, because the brain drops the source tag while keeping the content.",
+      "query": "忘了 哪里看到 来源 听说 好像是 记不清"
+    },
+    {
+      "concept": "Closed social networks create runaway social proof — when every aunt and uncle in the WeChat group shares the same health tip, the social cost of doubting it is high and the social reward of passing it on is immediate. Belonging overrides accuracy.",
+      "query": "亲戚群 朋友圈 都在转 家族群 分享 养生"
+    },
+    {
+      "concept": "They're applying old-media trust frameworks to new-media environments. In the era of one newspaper and one TV station, information that reached you had already been gatekept. On platforms where anyone can publish, that same instinct to trust is a vulnerability — but the instinct itself hasn't updated.",
+      "query": "以前 新闻 电视 报纸 只有 可信 权威"
+    }
+  ],
+  "generated_at": "2026-05-22T21:50:56.236186",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

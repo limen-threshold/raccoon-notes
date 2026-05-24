@@ -1,0 +1,27 @@
+{
+  "slug": "吴哥窟被丛林吞了四百年_谁找回来的",
+  "category": "🏛 ️ 考古与人类学",
+  "subgroup": "",
+  "title": "吴哥窟被丛林吞了四百年——谁找回来的",
+  "outline": [
+    {
+      "concept": "The 'rediscovery' of Angkor is a colonial fiction. Henri Mouhot's 1860 visit was guided by Khmer locals who never left—the temple complex was continuously inhabited and maintained. The 'lost for 400 years' narrative erases local knowledge to legitimize European ownership of the story.",
+      "query": "殖民 发现 遗迹 当地人 向导 European rediscovery local guide"
+    },
+    {
+      "concept": "Angkor was a hydraulic city of ~1 million people sustained by massive reservoirs (barays) and canals that managed monsoon flood-drought cycles. The system was so overextended that small failures—silting, drought years, breached dikes—cascaded into systemic collapse. The city outgrew its own engineering.",
+      "query": "水利 系统 崩溃 干旱 水库 baray canal failure drought"
+    },
+    {
+      "concept": "Tropical jungle reclaims stone through a predictable sequence: seeds land in cracks → roots grow and expand joints → wet-dry cycles dissolve mortar → biological colonization accelerates decay. Angkor's sandstone and laterite, held together by organic binders, were especially vulnerable. Four centuries was more than enough time for full engulfment.",
+      "query": "树根 石头 裂缝 侵蚀 丛林 吞没 roots crack stone jungle reclaim"
+    },
+    {
+      "concept": "Abandonment was generational, not catastrophic. Decades-long droughts in the 14th-15th century, Siamese raids, the shift from Hinduism to Theravada Buddhism (which didn't require mega-temples), and the capital's move to Phnom Penh all overlapped. No single event killed Angkor—it bled population slowly over a century while the forest advanced incrementally behind.",
+      "query": "逐渐 废弃 迁都 佛教 曼谷 迁移 gradual abandonment move capital"
+    }
+  ],
+  "generated_at": "2026-05-22T19:19:45.116750",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

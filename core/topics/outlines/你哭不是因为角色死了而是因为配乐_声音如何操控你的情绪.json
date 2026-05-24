@@ -1,0 +1,27 @@
+{
+  "slug": "你哭不是因为角色死了而是因为配乐_声音如何操控你的情绪",
+  "category": "🎬 电影与叙事",
+  "subgroup": "",
+  "title": "你哭不是因为角色死了而是因为配乐——声音如何操控你的情绪",
+  "outline": [
+    {
+      "concept": "Leitmotif anchoring: a recurring melody gets wired to a specific character or relationship, so the music alone can summon that entity's emotional presence even when they're off-screen or gone — you're crying at the sound of the bond, not the plot event.",
+      "query": "电影主题曲 角色出场 旋律回忆 熟悉配乐"
+    },
+    {
+      "concept": "Anticipatory dissonance: composers introduce unstable, clashing chords or a creeping tempo just before an onscreen event, pre-loading your nervous system with dread so the visual beat lands on an already-primed body.",
+      "query": "紧张 变调 悬疑配乐 预感 心跳加速"
+    },
+    {
+      "concept": "The 'reversal drop' — stripping music to silence right before an emotional climax, then re-entering with a full, resolved chord. The silence creates a vacuum; the re-entry floods it, and the contrast itself, not the volume, triggers the tear response.",
+      "query": "突然安静 音乐消失 哭泣 高潮 爆发"
+    },
+    {
+      "concept": "Embodied resonance: low frequencies and rich harmonics physically vibrate the chest cavity, mimicking the somatic signature of grief or awe; your brain reads that body state and retrofits the emotion to match the scene — the sound literally reshapes what you feel.",
+      "query": "低音 震撼 身体感受 颤栗 共鸣"
+    }
+  ],
+  "generated_at": "2026-05-22T20:09:01.645604",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

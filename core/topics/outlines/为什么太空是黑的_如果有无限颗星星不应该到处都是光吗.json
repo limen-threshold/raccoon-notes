@@ -1,0 +1,27 @@
+{
+  "slug": "为什么太空是黑的_如果有无限颗星星不应该到处都是光吗",
+  "category": "🪐 天文学与宇宙",
+  "subgroup": "",
+  "title": "为什么太空是黑的——如果有无限颗星星不应该到处都是光吗",
+  "outline": [
+    {
+      "concept": "Olbers' Paradox: if the universe were infinite, static, and eternally old, every line of sight would eventually hit a star — the night sky should be wall-to-wall starlight, as bright as the surface of a sun. The darkness itself is the anomaly that needs explaining.",
+      "query": "夜空 星星 无数 为什么不亮 满天"
+    },
+    {
+      "concept": "The universe has a finite age (~13.8 billion years). Light has a speed limit. So there exists a cosmic horizon — beyond it, starlight simply hasn't had enough time to reach your eye yet. You're only seeing a bubble, not the whole thing.",
+      "query": "远方 看不到 等待 距离 光到达"
+    },
+    {
+      "concept": "The universe is expanding, which stretches photon wavelengths en route — redshift. Distant galaxies' visible light gets dragged into infrared and radio bands that your eye can't register. The light arrives; you just can't see it.",
+      "query": "红色 偏移 颜色变化 远处 变暗 波长"
+    },
+    {
+      "concept": "Darkness is not emptiness — it's the fingerprint of a universe that had a beginning and is still stretching. If the sky were uniformly bright, that would imply an eternal, static cosmos. The black between stars is the data.",
+      "query": "黑暗 证据 宇宙 起源 开始 有起点"
+    }
+  ],
+  "generated_at": "2026-05-22T18:55:41.626473",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

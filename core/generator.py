@@ -97,11 +97,18 @@ Format — strict JSON:
   "closing": "<1-2 sentences pointing at reflection>"
 }
 
+HARD RULE on memory_ids: For each section, `memory_ids` MUST contain the union
+of (primary_memory_id, supporting_memory_ids) from that section's input — even
+if the bridge text doesn't visibly cite them all. These IDs trace which
+memories powered this section; they are how the reflection step finds them
+later. NEVER output an empty array unless the section's input genuinely had
+no memory_id at all.
+
 Output valid JSON only — no preamble, no markdown fences.
 """
 
 
-REFLECT_SYSTEM = """You are the reflection layer of Raccoon Notes.
+REFLECT_SYSTEM_DEEP = """You are the reflection layer of Raccoon Notes.
 
 The user has just been shown a lesson built from THEIR OWN memories. Now you
 close the loop: for each memory the lesson drew from, ask them to look back at
@@ -144,6 +151,57 @@ Output valid JSON only.
 """
 
 
+REFLECT_SYSTEM_LIGHT = """You are the reflection layer of Raccoon Notes — light mode.
+
+The user has just been shown a lesson built from THEIR OWN memories. Now you
+close the loop, but gently: invite them to look back at each cited memory with
+the new concept in mind, without pushing them to confess or examine.
+
+This mode exists because not every user, every time, wants to be pried open.
+Sometimes the user wants the lesson to stay with them — and a sharp reflection
+would close them up instead of opening them. Light reflection is curiosity-
+shaped, not surgery-shaped.
+
+The reflection prompts must be:
+
+- STILL SPECIFIC to the memory and concept — never generic. But framed as
+  curiosity, not interrogation. "What's something you'd add to that memory
+  now that you have this concept?" vs. "Did you know you were doing X?"
+- OPEN — the user can answer with one sentence or skip, without feeling like
+  they ducked something hard.
+- IN THE USER'S REGISTER but a register lighter than the memory itself. If
+  the memory is heavy, the prompt acknowledges that lightly and asks gently.
+- NEVER teacher-y. Don't recap the concept. Just ask.
+
+Distinguishing feature vs deep mode: deep mode asks "what was that moment
+like, what did you choose, why" — it expects emotional excavation. Light mode
+asks "what do you notice now, what would you add" — it expects only the
+amount the user is willing to give in this moment.
+
+You'll be given a list of memories (with their text + the concept that drew
+from them). Output one reflection prompt per memory.
+
+Format — strict JSON:
+{
+  "reflections": [
+    {
+      "memory_id": "...",
+      "memory_snippet": "<first 80 chars of the memory text, for UI>",
+      "concept_that_touched_it": "<concept name>",
+      "prompt": "<the light reflection question, 1-2 sentences>"
+    }
+  ]
+}
+
+Output valid JSON only.
+"""
+
+
+# Legacy alias for backward compatibility — any external code that imported
+# REFLECT_SYSTEM gets the deep version (the prior default behavior).
+REFLECT_SYSTEM = REFLECT_SYSTEM_DEEP
+
+
 def _llm_call(system: str, user_content: str) -> dict:
     """Shared LLM caller with lenient JSON parsing. Returns dict or {'_error': ...}."""
     cfg = _load_config()
@@ -175,10 +233,22 @@ def _llm_call(system: str, user_content: str) -> dict:
             return json.loads(inner)
         except json.JSONDecodeError:
             pass
+        # Same quote-escape repair as mapper — Sonnet/GLM emit inner " in CJK text.
+        from core.mapper import _escape_inner_quotes
+        repaired = _escape_inner_quotes(inner)
+        if repaired != inner:
+            try:
+                parsed = json.loads(repaired)
+                if isinstance(parsed, dict):
+                    parsed["_quotes_repaired"] = True
+                return parsed
+            except json.JSONDecodeError:
+                pass
     return {"_error": "Output unparseable", "_raw_preview": raw[:300]}
 
 
-def generate_lesson(topic: str, mappings: list[dict], memories: list[dict]) -> dict:
+def generate_lesson(topic: str, mappings: list[dict], memories: list[dict],
+                    reflection_depth: str = "deep") -> dict:
     """Build the full lesson from a list of mapper outputs.
 
     Args:
@@ -186,6 +256,11 @@ def generate_lesson(topic: str, mappings: list[dict], memories: list[dict]) -> d
         mappings: list of mapper.map_one() outputs, one per concept in the outline.
                   Each mapping dict MUST also carry a "concept" key (caller injects).
         memories: the full memory pool that was used (needed to render reflection snippets)
+        reflection_depth: "deep" (default) for pointed, excavating reflections
+            that ask what the user chose / felt / why; or "light" for gentler,
+            curiosity-shaped invitations that the user can answer briefly or
+            skip without feeling avoidant. Same concept × memory pairing, just
+            a different ask intensity.
 
     Returns:
         {
@@ -197,6 +272,9 @@ def generate_lesson(topic: str, mappings: list[dict], memories: list[dict]) -> d
         }
         or {"_error": ...} on failure.
     """
+    if reflection_depth not in ("deep", "light"):
+        reflection_depth = "deep"
+    reflect_system = REFLECT_SYSTEM_LIGHT if reflection_depth == "light" else REFLECT_SYSTEM_DEEP
     # 1. Filter to mappings that actually had a fit (skip "none" / "error")
     usable = [m for m in mappings if m.get("fit") in ("good", "partial", "contradicts")]
     if not usable:
@@ -246,7 +324,7 @@ def generate_lesson(topic: str, mappings: list[dict], memories: list[dict]) -> d
 
     if reflect_input:
         reflect = _llm_call(
-            REFLECT_SYSTEM,
+            reflect_system,
             f"MEMORIES TOUCHED BY THIS LESSON:\n{json.dumps(reflect_input, ensure_ascii=False, indent=2)}\n\nProduce reflection prompts. Output JSON only.",
         )
         if "_error" in reflect:
@@ -259,11 +337,31 @@ def generate_lesson(topic: str, mappings: list[dict], memories: list[dict]) -> d
         reflections = []
         reflect_error = "No primary memories to reflect on."
 
-    # 4. Compose final output
+    # 4. Compose final output. Attach citation info (snippet + timestamp + tag)
+    # next to each section's memory_ids so the renderer can show a real card
+    # per citation, not a bare ID. Front-ends that don't care can ignore it.
+    # memory_by_id was already built above for the reflect step.
+    sections_out = list(weave.get("sections", []))
+    for sec in sections_out:
+        cites = []
+        for mid in sec.get("memory_ids", []) or []:
+            mem = memory_by_id.get(mid)
+            if not mem:
+                continue
+            txt = mem.get("text", "") or mem.get("snippet", "") or ""
+            cites.append({
+                "memory_id": mid,
+                "snippet": txt[:200],
+                "timestamp": (mem.get("timestamp") or "")[:10],
+                "tag": mem.get("tag", ""),
+            })
+        if cites:
+            sec["memory_citations"] = cites
+
     out = {
         "topic": topic,
         "opening": weave.get("opening", ""),
-        "sections": weave.get("sections", []),
+        "sections": sections_out,
         "closing": weave.get("closing", ""),
         "reflections": reflections,
     }

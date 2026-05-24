@@ -1,0 +1,27 @@
+{
+  "slug": "难民是怎么变成_问题_的",
+  "category": "🗺 ️ 政治与社会",
+  "subgroup": "",
+  "title": "难民是怎么变成\"问题\"的",
+  "outline": [
+    {
+      "concept": "Problematization is a political act, not a description. The shift from 'refugee crisis' (something happening to people) to 'refugee problem' (people who are the problem) redirects responsibility — away from the war or disaster that displaced them, onto the displaced themselves. Naming is the first move of control.",
+      "query": "难民问题 危机 媒体 报道 标题"
+    },
+    {
+      "concept": "Statistical dehumanization: when individual stories become aggregate numbers, the brain's threat-detection activates but empathy shuts down. 'One family fleeing bombs' triggers compassion; '10,000 arrivals this month' triggers alarm. The switch from narrative to count is the switch from human to problem.",
+      "query": "难民 数量 统计 涌入 新闻 大批"
+    },
+    {
+      "concept": "The refugee 'problem' is politically useful because a visible external threat justifies emergency powers, consolidates in-group identity, and distracts from domestic policy failures. Politicians don't create refugees, but they create the problem — because the problem does political work.",
+      "query": "选举 移民 边境 威胁 政治辩论 外部敌人"
+    },
+    {
+      "concept": "Self-fulfilling framing: once treated as a problem, the policy response — camps, work bans, segregation, bureaucratic limbo — produces the very dysfunctions (poverty, parallel societies, desperation) that retroactively justify the 'problem' label. The frame manufactures the reality it claims to describe.",
+      "query": "难民营 隔离 限制 不能工作 边缘化 政策"
+    }
+  ],
+  "generated_at": "2026-05-22T19:35:22.092435",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

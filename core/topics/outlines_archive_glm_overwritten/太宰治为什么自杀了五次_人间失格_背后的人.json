@@ -1,0 +1,31 @@
+{
+  "slug": "太宰治为什么自杀了五次_人间失格_背后的人",
+  "category": "📚 文学",
+  "subgroup": "",
+  "title": "太宰治为什么自杀了五次——《人间失格》背后的人",
+  "outline": [
+    {
+      "concept": "Self-alienation as survival: some people learn to play a 'clown' role to avoid rejection, but the mask becomes a prison — they lose access to their own real feelings because they've never practiced having them honestly.",
+      "query": "讨好别人 假装开心 伪装 社交面具 害怕被讨厌"
+    },
+    {
+      "concept": "Shame spirals: when a person's core belief is 'I am defective,' every failure confirms it and even success feels fraudulent. The shame doesn't respond to evidence — it consumes evidence.",
+      "query": "觉得自己很烂 不配 搞砸了 自我厌恶 冒名顶替"
+    },
+    {
+      "concept": "Addiction as self-medication for emotional numbness: alcohol and drugs don't create escape — they fill an emptiness that the person cannot feel any other way. The substance becomes the only reliable relationship.",
+      "query": "喝酒 酗酒 喝醉 逃避 麻痹自己 停不下来"
+    },
+    {
+      "concept": "Repeated suicide attempts as communication: each attempt screams 'I am in pain' in the only language that feels heard, but each one also normalizes the act — making the final, completed suicide easier to carry out.",
+      "query": "自杀念头 自残 想死 活不下去 伤害自己"
+    },
+    {
+      "concept": "The artist's paradox: writing about one's own destruction requires enough distance to craft it into art, but that same distance can make the writer feel their suffering is only valuable when aestheticized — that they are worth more as material than as a person.",
+      "query": "写作 创作 痛苦 灵感 把痛苦写成作品 表达"
+    }
+  ],
+  "generated_at": "2026-05-22T20:22:05.852290",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

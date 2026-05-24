@@ -1,0 +1,31 @@
+{
+  "slug": "你脚下的地面在动只是你感觉不到",
+  "category": "🌍 地球科学与地理",
+  "subgroup": "",
+  "title": "你脚下的地面在动只是你感觉不到",
+  "outline": [
+    {
+      "concept": "地球表面由约15块板块拼成，每年以1-15厘米的速度漂移——和指甲生长差不多快。运动从未停止，只是远低于人体感知阈值。",
+      "query": "指甲生长 缓慢变化 感觉不到 slow movement imperceptible"
+    },
+    {
+      "concept": "人的前庭系统只感知加速度（速度变化），不感知匀速运动。就像平稳飞行时你感觉不到飞机在走，板块匀速漂移时身体完全没有参照。",
+      "query": "平稳飞行 火车 匀速 感觉不到速度 constant velocity no sensation"
+    },
+    {
+      "concept": "板块运动有直接证据：大西洋两岸海岸线可以拼合、相同年代的化石出现在不同大陆、GPS实测确认了每年几厘米的持续位移。",
+      "query": "大陆拼图 海岸线 匹配 南美洲 非洲 GPS 位移 coastline fit"
+    },
+    {
+      "concept": "当板块边界卡住无法平滑滑动，应力会持续积累几十年甚至几百年，最终突然断裂释放——这就是地震，你唯一能感受到板块运动的瞬间。",
+      "query": "地震 突然 积累 应力释放 断层 卡住 stress buildup sudden release"
+    },
+    {
+      "concept": "在地质时间尺度上，坚硬的地壳像慢速流体：山脉隆起、大洋裂开、大陆重组。人类觉得地面永恒不动，只是因为我们寿命太短，看不到这出慢动作。",
+      "query": "沧海桑田 地貌变化 山脉 隆起 long time geological scale slow motion"
+    }
+  ],
+  "generated_at": "2026-05-22T18:43:11.223923",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

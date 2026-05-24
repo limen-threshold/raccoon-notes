@@ -1,0 +1,31 @@
+{
+  "slug": "美洲原住民的创世神话_乌鸦偷来了太阳",
+  "category": "🐉 神话与民间传说",
+  "subgroup": "",
+  "title": "美洲原住民的创世神话——乌鸦偷来了太阳",
+  "outline": [
+    {
+      "concept": "Trickster as transformer, not just troublemaker — in Pacific Northwest cosmologies, Raven steals the sun not for himself but to remake the world. His rule-breaking is world-creating: the chaos agent and the culture hero are the same figure.",
+      "query": "打破规则 反而带来好结果 叛逆 创造 rebellion good outcome"
+    },
+    {
+      "concept": "Creation by transformation, not from nothing — the sun already existed but was hoarded by a chief. The world wasn't made ex nihilo; it was already there, incomplete and unjust. Creation is redistribution of what's been kept from everyone.",
+      "query": "东西本来就有 被独占 重新分配 不公平 改造 renovation repurpose"
+    },
+    {
+      "concept": "Theft as sacred act — stealing the sun is heroic because it breaks hoarding. The moral valence is inverted: the real crime is keeping light to yourself, and the thief is the liberator. Possessiveness itself is the cosmic problem.",
+      "query": "拿走别人的 分享 独占 慷慨 私藏 hoarding sharing liberate"
+    },
+    {
+      "concept": "Shape-shifting as cosmological method — Raven becomes a pine needle, is swallowed by the chief's daughter, is born as a human child, then cries until given the sun-ball. Crossing boundaries (animal↔human, outsider↔kin, small↔powerful) isn't decoration; it's the mechanism by which transformation actually happens.",
+      "query": "伪装 身份转换 扮演角色 靠近目标 变通 shapeshift adapt role"
+    },
+    {
+      "concept": "The myth encodes real observation — ravens are genuinely manipulative, curious, and good at getting into things they shouldn't. The story maps actual corvid behavior onto cosmic function: what you notice about your neighbor is what you tell about your god.",
+      "query": "观察动物 行为 聪明 好奇 乌鸦 联想 动物像人 animal behavior clever"
+    }
+  ],
+  "generated_at": "2026-05-22T19:28:46.953469",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "人工语言_世界语为什么失败了但编程语言成功了",
+  "category": "🗣 ️ 语言学",
+  "subgroup": "",
+  "title": "人工语言——世界语为什么失败了但编程语言成功了",
+  "outline": [
+    {
+      "concept": "Network effects create a cold-start trap for spoken languages: a language's value to you depends on how many others speak it. Esperanto faced a chicken-and-egg problem — nobody learns it because nobody speaks it. Programming languages bypass this because even a single user with a compiler gets full utility; the machine is always fluent.",
+      "query": "学语言 没人交流 社群 冷启动 network effect 一个人用"
+    },
+    {
+      "concept": "Esperanto tried to displace natural languages that already worked for international communication (English, French). Programming languages faced no such incumbent — machines cannot parse human speech, so there was nothing to replace. Filling a vacuum is easier than replacing a working system.",
+      "query": "替代 旧工具 已经够用 不需要换 新方法 替换成本"
+    },
+    {
+      "concept": "Ambiguity is a feature in human language, not a bug — vagueness, context, and pragmatic inference let speakers be flexible, polite, and creative. Esperanto's rationalized grammar stripped these away, making it worse at being a human language. Programming languages embrace precision because machines need deterministic interpretation; rigidity is the point.",
+      "query": "歧义 模糊 语境 言外之意 ambiguity 精确 理解"
+    },
+    {
+      "concept": "Communities form around shared practice and tooling, not linguistic elegance. Esperanto offered cultural neutrality but no jobs, frameworks, or problems to solve together. Programming languages accumulate communities through ecosystems — libraries, job markets, conferences — that make the language worth staying in regardless of its design quality.",
+      "query": "开发者社区 开源 框架 找工作 生态 ecosystem 工具链"
+    }
+  ],
+  "generated_at": "2026-05-22T20:31:09.609355",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

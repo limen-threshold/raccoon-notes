@@ -1,0 +1,27 @@
+{
+  "slug": "如果一棵树倒在森林里没人听到它有声音吗",
+  "category": "📜 哲学",
+  "subgroup": "",
+  "title": "如果一棵树倒在森林里没人听到它有声音吗",
+  "outline": [
+    {
+      "concept": "The question is a definitional trap. 'Sound' means two different things: acoustic waves (physical vibrations in air, exist without any observer) and auditory experience (the phenomenal 'what it's like to hear', requires a perceiver). The tree definitely makes vibrations; whether it makes 'sound' depends on which definition you're using.",
+      "query": "声音 振动 听到 物理 experience 耳朵"
+    },
+    {
+      "concept": "Locke's primary vs secondary qualities: mass and shape exist in the object itself, but properties like sound, color, and taste are relational—they arise from the interaction between physical features and a perceiving system. The 440Hz wave exists without you; the 'A note' doesn't.",
+      "query": "颜色 红色 客观 主观 perception 看见 属性"
+    },
+    {
+      "concept": "This isn't just about forests. Your entire experienced world is already a construction—your brain builds a model and you live inside it. You never encounter unprocessed reality. The question simply makes this visible by removing the perceiver and asking what's left.",
+      "query": "梦境 现实 感觉 真实 illusion 感知 错觉"
+    },
+    {
+      "concept": "The residual unease points to the hard problem of consciousness: physical processes can be fully described without reference to experience, yet experience exists. The gap between 'vibrations happened' and 'something was heard' isn't a word game—it's the fact that subjective experience seems to be a different kind of thing than physical events, and we have no account of how one gives rise to the other.",
+      "query": "意识 体验 主观 困难问题 consciousness 感受质 qualia"
+    }
+  ],
+  "generated_at": "2026-05-22T19:02:16.084932",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

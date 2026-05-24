@@ -1,0 +1,27 @@
+{
+  "slug": "黑客到底在做什么_不是电影里那样的",
+  "category": "🔧 计算机与技术",
+  "subgroup": "",
+  "title": "黑客到底在做什么——不是电影里那样的",
+  "outline": [
+    {
+      "concept": "Real hacking is mostly running pre-built tools (Metasploit, Nmap scripts, exploit kits) against known vulnerabilities — more like picking locks with a master key set than inventing a new way through walls. Most attackers never write original exploits.",
+      "query": "用现成工具 模板 不自己写 复用 套框架"
+    },
+    {
+      "concept": "The majority of real-world breaches exploit CVEs that already have patches available. Hackers bet on organizations not updating — they're mining update laziness, not discovering zero-days. Unpatched systems are the low-hanging fruit that actually gets picked.",
+      "query": "没更新 懒得升级 补丁 旧版本 延迟 系统"
+    },
+    {
+      "concept": "Social engineering often bypasses all technical security entirely — phishing emails, impersonation calls, tailgating through doors. The most effective 'hack' is convincing a human to hand over access voluntarily. No firewall stops someone who already has the password.",
+      "query": "被骗 伪装 钓鱼 冒充 点链接 交出密码 信任"
+    },
+    {
+      "concept": "Most actual hacking time is reconnaissance and waiting — scanning networks, gathering public info (OSINT), running automated scripts that ping thousands of targets. It's patient, boring, repetitive work punctuated by brief moments of access, not a dramatic real-time code battle.",
+      "query": "等待 观察 收集信息 耐心 扫描 重复 无聊"
+    }
+  ],
+  "generated_at": "2026-05-22T20:35:45.767429",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

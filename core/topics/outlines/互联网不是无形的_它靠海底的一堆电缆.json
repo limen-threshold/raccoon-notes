@@ -1,0 +1,27 @@
+{
+  "slug": "互联网不是无形的_它靠海底的一堆电缆",
+  "category": "🔧 计算机与技术",
+  "subgroup": "",
+  "title": "互联网不是无形的——它靠海底的一堆电缆",
+  "outline": [
+    {
+      "concept": "99% of intercontinental data travels through physical cables on the ocean floor, not satellites. Your phone is only wireless to the nearest cell tower—after that, everything is wires, including undersea ones spanning thousands of kilometers.",
+      "query": "WiFi 断网 手机信号 基站 卫星 云端"
+    },
+    {
+      "concept": "Submarine cables beat satellites because fiber optics send light through glass along a shorter path than bouncing 36,000km up to orbit and back. A single cable carries terabits per second; satellites carry orders of magnitude less and with higher latency.",
+      "query": "网速慢 视频卡顿 延迟 ping 下载速度 游戏延迟"
+    },
+    {
+      "concept": "These cables are garden-hose thin and lie exposed on the seabed. Ship anchors, fishing trawlers, undersea earthquakes, and even shark bites cut them regularly. A single break can knock an entire country offline until a repair ship arrives.",
+      "query": "断网 海底地震 船锚 渔网 网站打不开 维修"
+    },
+    {
+      "concept": "Cable landing points are strategic chokepoints: most cables come ashore at the same few beaches, often following old colonial shipping routes. Whoever controls a landing station can monitor, throttle, or sever traffic—making cable geography a lever of power.",
+      "query": "VPN 翻墙 海外服务器 访问国外网站 电缆 登陆站"
+    }
+  ],
+  "generated_at": "2026-05-22T20:33:07.864438",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -223,3 +223,10 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# Lesson samples contain real (private) memory references from the
+# maintainer's own Anchor store. Keep local for testing, not in repo.
+core/topics/sample_lessons/
+
+# Sonnet vs GLM outline comparison runs — intermediate / debug only.
+core/topics/outlines_sonnet_compare/

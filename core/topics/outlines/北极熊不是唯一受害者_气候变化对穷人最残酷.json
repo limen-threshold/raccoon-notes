@@ -1,0 +1,27 @@
+{
+  "slug": "北极熊不是唯一受害者_气候变化对穷人最残酷",
+  "category": "🌱 生态、环境与气候",
+  "subgroup": "",
+  "title": "北极熊不是唯一受害者——气候变化对穷人最残酷",
+  "outline": [
+    {
+      "concept": "Physical exposure asymmetry: poor people are concentrated in climate-vulnerable geographies—flood plains, urban heat islands, drought-prone farmland—and work weather-exposed jobs like farming, construction, street vending. Climate change doesn't create their risk from scratch; it weaponizes the vulnerability already built into where they live and what they do.",
+      "query": "暴雨 洪水 老家 房子 农活 户外 高温 outdoor work"
+    },
+    {
+      "concept": "Adaptation is a paywall: every climate defense—air conditioning, reinforced housing, flood insurance, relocation—costs money. The wealthy buy buffers between themselves and extreme weather; the poor absorb the impact directly because they can't afford the buffer layer.",
+      "query": "空调 装不起 房租 修房 保险 买不起 afford 搬家"
+    },
+    {
+      "concept": "The compounding shock spiral: climate disasters destroy productive assets poor people can't replace—crops, tools, livestock, housing. Recovery means debt; debt erodes future resilience; each hit makes the next one worse. This is the climate poverty trap: not a single disaster but a cascade that accelerates downward.",
+      "query": "灾后 损失 借钱 还债 绝收 重建 crops destroyed debt"
+    },
+    {
+      "concept": "Emission-consequence inversion: the populations who contribute least to global carbon emissions—subsistence farmers, slum residents, small island communities—suffer the most severe climate consequences. The highest per-capita emitters can afford to insulate themselves from the damage they disproportionately cause.",
+      "query": "工厂 排污 村庄 污染 出国 发达国家 差距 factory village"
+    }
+  ],
+  "generated_at": "2026-05-22T21:10:50.885110",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

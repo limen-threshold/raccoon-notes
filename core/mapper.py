@@ -56,6 +56,47 @@ def _load_config() -> dict:
         return {}
 
 
+def _escape_inner_quotes(s: str) -> str:
+    """Best-effort escape of unescaped `"` inside JSON string values.
+
+    Walks char-by-char tracking whether we're inside a string. When we hit a `"`
+    that's not preceded by `\\` and not at a structural position, replace with `\\"`.
+    Structural positions = the `"` is the start/end of a JSON string token, i.e.
+    surrounded by JSON syntax (after `:`, `,`, `[`, `{`, whitespace; or before
+    `:`, `,`, `]`, `}`, end-of-string).
+    """
+    out: list = []
+    in_string = False
+    i = 0
+    while i < len(s):
+        c = s[i]
+        if c == "\\" and i + 1 < len(s):
+            out.append(s[i:i+2])
+            i += 2
+            continue
+        if c == '"':
+            if not in_string:
+                in_string = True
+                out.append(c)
+                i += 1
+                continue
+            j = i + 1
+            while j < len(s) and s[j] in " \t\n\r":
+                j += 1
+            next_char = s[j] if j < len(s) else ""
+            if next_char in ",:]}" or next_char == "":
+                in_string = False
+                out.append(c)
+                i += 1
+            else:
+                out.append('\\"')
+                i += 1
+            continue
+        out.append(c)
+        i += 1
+    return "".join(out)
+
+
 # --- prompt ---
 
 
@@ -82,11 +123,15 @@ If no memory fits at all:
 If one or more memories fit:
 {
   "fit": "good" | "partial" | "contradicts",
-  "primary_memory_id": "<id of the memory you're building from>",
+  "primary_memory_id": "<id of the memory you're building from — MANDATORY when fit != 'none'>",
   "supporting_memory_ids": ["<ids of any others you weave in>"],
   "bridge": "<the bridge paragraph — 100-300 words, in the user's register, citing the memory verbatim and explaining the concept through it>",
   "next_thread": "<one sentence — what would naturally come next in this conversation; the generator (#4) will use this to extend the lesson>"
 }
+
+MANDATORY: primary_memory_id must be present and non-empty whenever fit is "good", "partial", or "contradicts". Pick the memory ID from the input pool whose snippet you most relied on. Without this ID, downstream reflection cannot find the memory the lesson came from.
+
+MANDATORY: supporting_memory_ids must include EVERY memory ID from the pool whose content you actually drew on in the bridge text — not just the primary one. If your bridge quotes, references, or weaves in more than one memory (which is typical for rich bridges), list all of those IDs here, in the order you used them. Only leave this empty if your bridge truly only used the primary memory.
 
 HARD RULES:
 
@@ -155,27 +200,86 @@ def map_one(concept: str, memories: list[dict], concept_context: str = "") -> di
         else:
             raw = raw.strip("`")
 
+    parsed = None
     try:
-        return json.loads(raw)
+        parsed = json.loads(raw)
     except json.JSONDecodeError:
         pass
-    # Lenient: extract outermost {...}
-    if "{" in raw and "}" in raw:
+    if parsed is None and "{" in raw and "}" in raw:
         inner = raw[raw.find("{"):raw.rfind("}")+1]
         try:
-            return json.loads(inner)
+            parsed = json.loads(inner)
         except json.JSONDecodeError:
             pass
-    # Last resort: regex-pull bridge + fit
-    out = {"fit": "error", "reason": "Output unparseable", "raw_preview": raw[:300]}
-    m_fit = re.search(r'"fit"\s*:\s*"([^"]+)"', raw)
-    m_bridge = re.search(r'"bridge"\s*:\s*"(.*?)"\s*(?=,\s*"[a-z_]+"|\s*\})', raw, re.DOTALL)
-    if m_fit:
-        out["fit"] = m_fit.group(1)
-    if m_bridge:
-        out["bridge"] = m_bridge.group(1)
-        out["_regex_fallback"] = True
-    return out
+        if parsed is None:
+            # Sonnet often emits unescaped " inside Chinese bridge text:
+            #   "bridge": "... 一句话——"the goal shifts from zero..." ..."
+            # which is "a quote inside a JSON string". Walk char-by-char and
+            # escape `"` that aren't at JSON-structural positions.
+            repaired = _escape_inner_quotes(inner)
+            if repaired != inner:
+                try:
+                    parsed = json.loads(repaired)
+                    if parsed is not None and isinstance(parsed, dict):
+                        parsed["_quotes_repaired"] = True
+                except json.JSONDecodeError:
+                    pass
+    if parsed is None:
+        # Last resort: regex-pull bridge + fit
+        out = {"fit": "error", "reason": "Output unparseable", "raw_preview": raw[:300]}
+        m_fit = re.search(r'"fit"\s*:\s*"([^"]+)"', raw)
+        m_bridge = re.search(r'"bridge"\s*:\s*"(.*?)"\s*(?=,\s*"[a-z_]+"|\s*\})', raw, re.DOTALL)
+        if m_fit:
+            out["fit"] = m_fit.group(1)
+        if m_bridge:
+            out["bridge"] = m_bridge.group(1)
+            out["_regex_fallback"] = True
+        return out
+
+    # Post-process: enforce primary_memory_id + supporting_memory_ids when
+    # fit != "none". Sonnet occasionally drops or empties these fields even
+    # though they're MANDATORY in the schema. Recovery strategy:
+    #   (a) primary_memory_id missing → scan bridge for any pool id, else
+    #       fall back to memories[0]
+    #   (b) supporting_memory_ids missing/empty AND bridge is rich (>= 200
+    #       chars) → scan bridge for any pool id NOT equal to primary; if
+    #       still empty, take up to 2 next memories from the pool
+    fit = parsed.get("fit", "")
+    if fit in ("good", "partial", "contradicts"):
+        pool_ids = [m.get("memory_id", "") for m in memories if m.get("memory_id")]
+        bridge_text = parsed.get("bridge", "") or ""
+
+        # (a) primary
+        pid = parsed.get("primary_memory_id", "") or ""
+        if not pid:
+            found = next((mid for mid in pool_ids if mid and mid in bridge_text), "")
+            if not found and pool_ids:
+                found = pool_ids[0]
+            if found:
+                parsed["primary_memory_id"] = found
+                parsed["_primary_recovered"] = True
+                pid = found
+
+        # (b) supporting
+        supp = parsed.get("supporting_memory_ids") or []
+        if not isinstance(supp, list):
+            supp = []
+        if not supp and len(bridge_text) >= 200:
+            # Find every pool id that appears in the bridge text, minus primary
+            in_text = [mid for mid in pool_ids if mid and mid != pid and mid in bridge_text]
+            if in_text:
+                supp = in_text[:3]
+                parsed["_supporting_recovered_from_text"] = True
+            else:
+                # Last resort: a rich bridge probably drew on more than one
+                # memory. Take the next 1-2 pool ids that weren't primary.
+                others = [mid for mid in pool_ids if mid and mid != pid][:2]
+                if others:
+                    supp = others
+                    parsed["_supporting_recovered_from_pool"] = True
+        parsed["supporting_memory_ids"] = supp
+
+    return parsed
 
 
 # --- CLI smoke test ---

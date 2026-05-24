@@ -1,0 +1,27 @@
+{
+  "slug": "庄子梦蝶_你醒着的时候怎么知道你不是在做梦",
+  "category": "📜 哲学",
+  "subgroup": "",
+  "title": "庄子梦蝶——你醒着的时候怎么知道你不是在做梦",
+  "outline": [
+    {
+      "concept": "Dreaming and waking feel identical from the inside. While you're in a dream, you don't know it's a dream — the experience has the same texture, certainty, and felt reality as waking life. There's no internal alarm that goes off to mark the difference.",
+      "query": "做梦 不知道 醒来 才发现 梦里感觉 真实"
+    },
+    {
+      "concept": "No test from within experience can prove you're awake. Any verification you perform — pinching yourself, reading text twice, checking consistency — could itself be simulated by the dream. You can't use experience to validate experience without circularity.",
+      "query": "验证 清醒 测试 捏自己 读文字 梦里重复 确认"
+    },
+    {
+      "concept": "Zhuangzi's real move is dissolving the question, not answering it. 'Am I Zhuangzi dreaming of a butterfly, or a butterfly dreaming of Zhuangzi?' reveals that the boundary between dreamer and dreamed, self and other, is itself fluid — this is 物化: things transform into each other without a fixed hierarchy of what's 'more real.'",
+      "query": "物化 蝴蝶 庄子 谁梦谁 边界 模糊 转化"
+    },
+    {
+      "concept": "The practical payoff: freedom (逍遥) comes from not needing certainty about which state is real. When you stop insisting on a fixed vantage point, you can occupy any perspective without being trapped by it. The question 'is this real?' loses its grip once you stop treating reality as something that needs certification.",
+      "query": "不确定 放下 执着 逍遥 自由 换角度 不纠结 真假"
+    }
+  ],
+  "generated_at": "2026-05-22T19:00:37.100480",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "冰岛为什么叫冰岛格陵兰为什么叫绿色的土地",
+  "category": "🌍 地球科学与地理",
+  "subgroup": "",
+  "title": "冰岛为什么叫冰岛格陵兰为什么叫绿色的土地",
+  "outline": [
+    {
+      "concept": "Iceland and Greenland's names seem swapped — Iceland has geothermal green valleys and mild coasts, while Greenland is 80% ice sheet. This isn't a translation error; it's a historical irony from how and why each was named.",
+      "query": "冰岛 绿地 温泉 格陵兰 冰盖 名字反差"
+    },
+    {
+      "concept": "Iceland got its name from one man's bad experience. Norse explorer Flóki Vilgerðarson arrived, saw ice-choked fjords, suffered a brutal winter, and named the whole place 'Iceland.' A single miserable season branded an entire country permanently.",
+      "query": "Flóki 冰岛命名 冰封峡湾 糟糕冬天 第一印象"
+    },
+    {
+      "concept": "Greenland was named as Viking-era marketing. Erik the Red, exiled from Iceland around 982, needed to attract settlers to his new home. He called it 'Grænland' to sound inviting — deliberate branding, not description.",
+      "query": "Erik the Red 格陵兰 流放 招人 宣传 殖民命名"
+    },
+    {
+      "concept": "The name wasn't pure deception — the Medieval Warm Period (c. 900–1300 CE) meant southern Greenland's coast was genuinely greener, enough for Norse farming settlements. The irony grew as climate cooled and ice advanced, but by then the name was already stuck.",
+      "query": "中世纪温暖期 格陵兰南岸 维京农场 气候变冷 冰川扩张"
+    }
+  ],
+  "generated_at": "2026-05-22T18:46:21.979220",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

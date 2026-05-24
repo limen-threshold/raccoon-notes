@@ -1,0 +1,27 @@
+{
+  "slug": "辣是痛觉不是味觉_你在自虐",
+  "category": "🍳 食物与烹饪科学",
+  "subgroup": "",
+  "title": "辣是痛觉不是味觉——你在自虐",
+  "outline": [
+    {
+      "concept": "Capsaicin binds to TRPV1 receptors—the same receptors that fire when tissue exceeds 43°C. Your brain literally cannot distinguish capsaicin from a real thermal burn; the neural signal is identical. 五种基本味觉（酸甜咸苦鲜）走味蕾，辣走三叉神经——一条痛觉专线。",
+      "query": "吃辣 嘴巴着火 觉得烫 hot pepper burn tongue"
+    },
+    {
+      "concept": "身体收到痛觉信号后释放内啡肽（天然止痛剂），内啡肽本身带来轻微欣快感。这就是为什么辣到流泪的同时会觉得「爽」——爽的不是辣，是身体给自己打的止痛针。",
+      "query": "吃辣 很爽 痛快 流汗 endorphin runner's high 痛并快乐"
+    },
+    {
+      "concept": "反复接触辣椒素会导致TRPV1受体下调——受体变少、敏感度降低。所以你能吃辣的阈值不断推高，需要更辣才能触发同样的痛觉-内啡肽循环。这不是「锻炼出来」的，是受体被烧钝了。",
+      "query": "越吃越辣 能吃辣 升级 tolerance 以前觉得辣现在不辣"
+    },
+    {
+      "concept": "痛觉→内啡肽奖赏→耐受→加量→更强奖赏，这个循环的结构和很多成瘾模式同构。你不是在享受味道，你是在追逐自己制造的痛觉来换内啡肽。所谓无辣不欢，本质是温和的自虐循环。",
+      "query": "停不下来 上瘾 没辣吃不下 chase 越来越辣 循环"
+    }
+  ],
+  "generated_at": "2026-05-22T21:16:27.880367",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

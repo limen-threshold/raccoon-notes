@@ -1,0 +1,27 @@
+{
+  "slug": "颜色不存在_它是你大脑编出来的",
+  "category": "🎨 艺术与设计",
+  "subgroup": "",
+  "title": "颜色不存在——它是你大脑编出来的",
+  "outline": [
+    {
+      "concept": "Light itself has no color—only wavelength. A 700nm wave isn't 'red' any more than a low bass note is 'dark.' Color is your brain's proprietary rendering of spectral data, not a property the external world carries.",
+      "query": "彩虹 光 波长 spectrum 物理 prism 棱镜"
+    },
+    {
+      "concept": "Your retina samples the entire visible spectrum with just 3 cone types (S, M, L), each responding to a broad, overlapping band. Your brain triangulates a color from those 3 signals—it never directly reads wavelength. This is why missing one cone type (color blindness) collapses a whole dimension of color experience.",
+      "query": "色盲 色弱 眼睛检查 辨色 cone 视锥 眼科"
+    },
+    {
+      "concept": "Identical wavelengths can produce different perceived colors depending on surrounding context—simultaneous contrast and color constancy. A gray patch on yellow looks blue-gray; on blue, yellow-gray. Your brain computes color relative to neighbors, not from absolute input, proving color is a comparative judgment, not a direct reading.",
+      "query": "颜色错觉 视觉 trick 背景色 同一颜色 illusion 对比"
+    },
+    {
+      "concept": "Without a perceiving nervous system, the universe contains electromagnetic radiation but zero color. Color is a sensory user interface your brain overlays on reality to make wavelength differences behaviorally useful. You've never seen the world as it is—you've only ever seen your brain's dashboard.",
+      "query": "闭上眼睛 黑暗 想象 看不见 如果 红色不存在 梦里颜色"
+    }
+  ],
+  "generated_at": "2026-05-22T19:57:31.841983",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "王尔德因为太聪明被关进监狱",
+  "category": "📚 文学",
+  "subgroup": "",
+  "title": "王尔德因为太聪明被关进监狱",
+  "outline": [
+    {
+      "concept": "Wilde's epigrams weren't decoration — they were attacks on Victorian hierarchy. Each witty inversion ('I can resist everything except temptation') exposed a social lie, which made powerful people want him gone long before any legal charge.",
+      "query": "说真话得罪人 机智反讽 社交场合 说话太直接 树敌"
+    },
+    {
+      "concept": "Wilde sued the Marquess of Queensberry for libel, believing his courtroom eloquence could outperform evidence. But legal proceedings reward consistency over cleverness — a witty contradiction that delights a salon destroys credibility under cross-examination.",
+      "query": "自信过头 反击失败 以为能赢 辩论输了 逞强"
+    },
+    {
+      "concept": "The prosecution weaponized Wilde's own wit against him. His epigrams and aesthetic declarations — meant as paradox — were read literally as confessions of moral corruption. Cleverness that relies on irony becomes self-incriminating when the audience refuses the ironic frame.",
+      "query": "聪明反被聪明误 话多必失 解释更糟 被误解 被断章取义"
+    },
+    {
+      "concept": "Victorian England could tolerate private transgression but not public defiance. Wilde's real offense was seeing through the system's hypocrisy and saying so while also violating its rules — the combination of insight and visibility is what the system punishes hardest.",
+      "query": "看穿规则 被针对 枪打出头鸟 太高调 明知还做"
+    }
+  ],
+  "generated_at": "2026-05-22T20:21:14.435164",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

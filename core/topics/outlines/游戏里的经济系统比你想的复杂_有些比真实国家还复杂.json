@@ -1,0 +1,31 @@
+{
+  "slug": "游戏里的经济系统比你想的复杂_有些比真实国家还复杂",
+  "category": "🎮 游戏与游戏设计",
+  "subgroup": "",
+  "title": "游戏里的经济系统比你想的复杂——有些比真实国家还复杂",
+  "outline": [
+    {
+      "concept": "Game economies suffer the same diseases as real ones—inflation, deflation, speculative bubbles—but lack the natural stabilizers that real economies developed over centuries. No central bank auto-adjusts interest rates, no tax system self-corrects. Every stabilizer must be manually designed from scratch, which is why game economies break in ways real ones rarely do.",
+      "query": "游戏 通货膨胀 钱没用了 物价飞涨 贬值"
+    },
+    {
+      "concept": "The faucet-sink problem: real economies have natural friction that drains money (taxes, depreciation, defaults). Games have infinite faucets—loot drops, quest rewards—and must artificially create sinks like repair costs, auction house taxes, or item decay. Get the ratio wrong and the currency collapses. Too much sink, players feel punished. Too little, money becomes meaningless wallpaper.",
+      "query": "游戏 修理费 消耗 钱花不出去 拍卖行税"
+    },
+    {
+      "concept": "Game economies run at extreme velocity. Players farm, trade, and exploit at speeds no real economy encounters—inflation that takes decades in a real country can happen in weeks. This compression means designers must predict and patch economic crises in real time, essentially central banking at 50x speed with no historical precedent to lean on.",
+      "query": "刷金 打金 farm 搬砖 挂机 刷副本"
+    },
+    {
+      "concept": "Players build emergent financial systems designers never intended: cross-region arbitrage, futures contracts, shadow banking, currency speculation. EVE Online players created derivatives markets. WoW gold farmers established real international exchange rates between virtual gold and USD. These player-invented instruments mirror real finance but operate in a legal vacuum—no SEC, no regulation, just crowd-sourced enforcement.",
+      "query": "倒卖 差价 套利 拍卖行 赚钱 低买高卖"
+    },
+    {
+      "concept": "This is why games like EVE Online and Runescape employ actual PhD economists—not as consultants, but as permanent central bankers who monitor money supply, tweak drop rates, and intervene in crises. The job description is identical to running a small country's monetary policy, except the GDP is measured in virtual gold and any citizen can discover a bug that lets them print infinite money overnight.",
+      "query": "EVE 经济学家 游戏经济 复杂 经济系统"
+    }
+  ],
+  "generated_at": "2026-05-22T21:33:38.050163",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

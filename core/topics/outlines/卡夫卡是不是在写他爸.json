@@ -1,0 +1,27 @@
+{
+  "slug": "卡夫卡是不是在写他爸",
+  "category": "📚 文学",
+  "subgroup": "",
+  "title": "卡夫卡是不是在写他爸",
+  "outline": [
+    {
+      "concept": "Kafka's authority figures—the judge in The Trial, the Castle officials, Gregor Samsa's father—all share one structure: they are arbitrary, inaccessible, and make the protagonist feel fundamentally guilty just for existing. This is Hermann Kafka's signature, transplanted wholesale into fiction.",
+      "query": "父亲 权威 害怕 管教 永远不够 评判"
+    },
+    {
+      "concept": "Kafka doesn't transcribe his father literally. He translates personal domination into institutional form: the father's 'because I said so' becomes bureaucracy's 'because the system says so.' The emotional logic is identical; only the scale changes. This is why Kafka feels both intimate and cosmic.",
+      "query": "规则 不公平 制度 无力感 说不清 莫名其妙"
+    },
+    {
+      "concept": "'Letter to His Father' is the Rosetta Stone. It's the one place Kafka names the dynamic directly—'you judged me the way a tyrant judges the oppressed.' Once you've read it, you see Hermann behind every doorkeeper and inspector. The letter was never sent; it was always a literary act.",
+      "query": "写给父亲的信 抱怨 解释 从未寄出 没寄出"
+    },
+    {
+      "concept": "The trap: Kafka's writing was forged in this father-wound, which means every act of writing about his father was simultaneously rebellion and continued attachment. He couldn't escape the relationship because his art—the thing that made him Kafka—was made from it. The writing is the cage and the key at once.",
+      "query": "写作 逃避 依赖 无法摆脱 创伤 变成力量"
+    }
+  ],
+  "generated_at": "2026-05-22T20:16:05.101858",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

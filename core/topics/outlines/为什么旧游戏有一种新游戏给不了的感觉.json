@@ -1,0 +1,27 @@
+{
+  "slug": "为什么旧游戏有一种新游戏给不了的感觉",
+  "category": "🎮 游戏与游戏设计",
+  "subgroup": "",
+  "title": "为什么旧游戏有一种新游戏给不了的感觉",
+  "outline": [
+    {
+      "concept": "Technical constraints created an imagination gap your brain had to fill. Low-res sprites and chiptune audio forced you to co-create the world — your brain treats self-generated details as personal memory, not received content. A 16×16 pixel face you interpreted as 'determined' sticks harder than a mocapped face showing determination, because you helped make it.",
+      "query": "像素画面 脑补 想象力 sprite imagination 低分辨率"
+    },
+    {
+      "concept": "Pre-internet information scarcity made discoveries feel owned, not found. No wikis, no quest markers, no YouTube — beating a boss or finding a secret meant you held genuine rare knowledge. The endowment effect kicks in: you value what you struggled to earn, and that value tags the memory with weight that a looked-up solution never gets.",
+      "query": "攻略 秘籍 隐藏 发现 没有网络 wiki cheat guide"
+    },
+    {
+      "concept": "Old games were short loops demanding repetition until fluent. Replaying the same stage 30 times builds procedural memory and genuine flow states — you don't just play, you become fluent. Modern games spread 60 hours of novel content; you're always a tourist, never a resident long enough to stop thinking and start flowing.",
+      "query": "反复练习 通关 肌肉记忆 背板 mastery repetition flow"
+    },
+    {
+      "concept": "The feeling isn't stored in the game — it's stored in the context of who you were when you played it. Summer afternoons with zero responsibilities, a CRT's glow, the specific smell of your childhood room. The game is a retrieval cue for a whole self you've lost access to. Replaying the ROM doesn't work because you're querying the game, but the feeling was indexed under a person who no longer exists.",
+      "query": "暑假 小时候 房间 怀念 childhood summer nostalgia CRT"
+    }
+  ],
+  "generated_at": "2026-05-22T21:34:14.253945",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

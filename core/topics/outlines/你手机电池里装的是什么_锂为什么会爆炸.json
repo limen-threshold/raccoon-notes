@@ -1,0 +1,27 @@
+{
+  "slug": "你手机电池里装的是什么_锂为什么会爆炸",
+  "category": "🧪 化学",
+  "subgroup": "",
+  "title": "你手机电池里装的是什么——锂为什么会爆炸",
+  "outline": [
+    {
+      "concept": "Lithium is the metal most eager to give up its electron — that's why it stores so much energy, and also why it's dangerous. The liquid electrolyte inside your battery isn't water; it's a flammable organic solvent, because lithium reacts violently with water and would literally ignite on contact.",
+      "query": "电池 漏液 液体 腐蚀 气味 烧焦"
+    },
+    {
+      "concept": "Inside the battery, a polymer separator only ~20 micrometers thick (thinner than a hair) keeps the anode and cathode apart while letting lithium ions pass through. If this separator is punctured, the two electrodes touch directly — an internal short circuit — and all that stored energy dumps as heat in an instant.",
+      "query": "手机 摔 背面 撞击 弯曲 座椅压到"
+    },
+    {
+      "concept": "When charging too fast or over many cycles, lithium doesn't deposit smoothly on the anode — it grows needle-like metallic structures called dendrites. These dendrites grow toward the cathode and can eventually pierce the separator, causing that internal short circuit from the inside out.",
+      "query": "快充 充电一夜 掉电快 电池健康度 循环次数"
+    },
+    {
+      "concept": "Thermal runaway: once a short circuit generates heat, the flammable electrolyte decomposes and releases oxygen. That oxygen feeds more combustion → more heat → more decomposition. This self-accelerating loop goes from warm to explosion in seconds, and nothing inside the battery can stop it once it starts.",
+      "query": "手机 发烫 烫手 充电发热 电池鼓包 自动关机"
+    }
+  ],
+  "generated_at": "2026-05-22T18:33:05.813520",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "二进制_整个数字世界只用了两个数字",
+  "category": "🔧 计算机与技术",
+  "subgroup": "",
+  "title": "二进制——整个数字世界只用了两个数字",
+  "outline": [
+    {
+      "concept": "Binary maps directly to physics: every digital medium stores information as two distinguishable physical states — voltage high/low, magnetic north/south, pit/flat on a disc. Two states is both the minimum needed to carry information and the maximum you can reliably distinguish at hardware scale. More states per unit sounds efficient but crumbles in practice because noise blurs the boundaries.",
+      "query": "开关 on off 电灯 电压高低 磁铁南北极 光盘凹坑"
+    },
+    {
+      "concept": "Positional notation is the trick that makes two symbols sufficient for everything. A single bit = 2 possibilities, but n bits = 2^n. 8 bits encode 256 values, 32 bits reach ~4.3 billion. The growth is exponential, not linear — so 'just 0 and 1' is not a bottleneck, it's a feature. The same positional logic that makes '0-9' enough for all numbers makes '0-1' enough too.",
+      "query": "位数组合 8位256 指数增长 密码锁拨盘 位置进位"
+    },
+    {
+      "concept": "Anything that can be numbered can be binary-encoded. The real work is agreeing on the mapping: A=65 in ASCII, each pixel's color = three numbers in RGB, audio = amplitude samples over time. These standards are the actual social contracts — binary is just the transport layer. The '0s and 1s' are invisible to users because the mapping conventions absorb the complexity.",
+      "query": "ASCII编码 字符转数字 RGB颜色值 像素 音频采样 格式标准"
+    },
+    {
+      "concept": "Binary's decisive advantage over analog is error resilience, not precision. Analog signals degrade with every copy — noise accumulates irreversibly. Binary signals can be regenerated perfectly because reading only requires deciding 'closer to 0 or 1?' Add error-correction codes and the information becomes effectively immortal. Digital copies are perfect copies; that's why binary won.",
+      "query": "磁带翻录 画质下降 copy degradation VHS翻版 模拟信号噪声 录音带失真"
+    }
+  ],
+  "generated_at": "2026-05-22T20:34:38.611804",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

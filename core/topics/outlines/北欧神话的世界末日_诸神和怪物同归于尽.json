@@ -1,0 +1,27 @@
+{
+  "slug": "北欧神话的世界末日_诸神和怪物同归于尽",
+  "category": "🐉 神话与民间传说",
+  "subgroup": "",
+  "title": "北欧神话的世界末日——诸神和怪物同归于尽",
+  "outline": [
+    {
+      "concept": "Ragnarok is not a battle between good and evil where good wins — it's a prophecy the gods already know they'll lose. Odin has seen it; he prepares anyway. The Norse apocalypse is certain, not conditional. No repentance, no last-minute rescue.",
+      "query": "明知会输 仍然去做 预感坏结局 必然失败"
+    },
+    {
+      "concept": "Ragnarok triggers through a specific irreversible chain: Fimbulwinter (three consecutive winters with no summer), then Loki breaks free, Fenrir's bonds snap, Jormungandr rises from the ocean poisoning the sky. Each link locks in the next — once started, the sequence cannot be halted.",
+      "query": "连锁反应 一发不可收拾 domino 崩溃 无法挽回"
+    },
+    {
+      "concept": "The deaths come in destined pairs: Odin vs Fenrir, Thor vs Jormungandr, Tyr vs Garm, Heimdall vs Loki. Each god kills their nemesis and dies in the same encounter. Mutual destruction isn't the tragedy — it's the structure.",
+      "query": "两败俱伤 同归于尽 双方都倒下 没有赢家"
+    },
+    {
+      "concept": "After Surtr's fire consumes everything, a green world rises from the water. Two humans survive hidden in a tree; Baldr walks free from Hel. Destruction is not the endpoint — it's the reset. The cycle begins again with survivors who carry the memory of what was lost.",
+      "query": "废墟 新生 结束后重新开始 浴火重生 循环"
+    }
+  ],
+  "generated_at": "2026-05-22T19:24:58.314060",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

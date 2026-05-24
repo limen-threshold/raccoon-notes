@@ -1,0 +1,27 @@
+{
+  "slug": "为什么妈妈做的菜比饭店好吃_不是错觉",
+  "category": "🍳 食物与烹饪科学",
+  "subgroup": "",
+  "title": "为什么妈妈做的菜比饭店好吃——不是错觉",
+  "outline": [
+    {
+      "concept": "Flavor imprinting: your palate wasn't born generic — it was calibrated by repeated exposure to whatever you ate most between ages 2–7. The specific salt level, spice ratio, and cooking method your mom used became your brain's reference standard for 'correct' flavor. This is mere exposure effect hardwired into taste circuits during a critical period.",
+      "query": "小时候常吃 家常菜 口味偏好 重复吃 习惯的味道 childhood flavor"
+    },
+    {
+      "concept": "Episodic flavor encoding: the brain doesn't store taste in isolation — it binds flavor to full context (who cooked it, which kitchen, the emotional atmosphere of that meal). Re-encountering those flavors reactivates the whole episodic bundle, adding emotional richness that a restaurant meal with no prior associations simply cannot match.",
+      "query": "吃到熟悉味道 想起家人 厨房 记忆中的菜 smell memory emotion 家的味道"
+    },
+    {
+      "concept": "Palate overfitting: restaurants optimize for the median customer; home cooks iteratively tune dishes to their family's specific preferences over years of feedback. The food is literally better-calibrated to your individual taste — it's personalized training data versus a generalist model.",
+      "query": "妈妈知道我口味 调味按我喜好 家里做的更合胃口 personalized taste home vs restaurant"
+    },
+    {
+      "concept": "Olfactory-limbic shortcut: smell signals bypass the thalamus and project directly to amygdala and hippocampus. Childhood smell memories get a privileged, fast lane to emotional processing that other sensory memories lack. This is why one whiff of mom's cooking can flood you before you even consciously identify the dish — the effect is neurologically distinct from ordinary preference.",
+      "query": "闻到味道就想起 小时候的气味 嗅觉触发记忆 smell trigger nostalgia 味道记忆瞬间"
+    }
+  ],
+  "generated_at": "2026-05-22T21:16:01.638302",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

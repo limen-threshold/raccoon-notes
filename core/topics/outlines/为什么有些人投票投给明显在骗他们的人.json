@@ -1,0 +1,27 @@
+{
+  "slug": "为什么有些人投票投给明显在骗他们的人",
+  "category": "🗺 ️ 政治与社会",
+  "subgroup": "",
+  "title": "为什么有些人投票投给明显在骗他们的人",
+  "outline": [
+    {
+      "concept": "Identity-protective cognition: your brain evaluates claims based on whether they threaten your group identity, not on accuracy. A lie from your side gets a pass; an uncomfortable fact from the other side gets rejected — because changing your mind would mean betraying your people.",
+      "query": "为朋友辩护 偏袒 自己人 队友犯错 找借口 group loyalty"
+    },
+    {
+      "concept": "The lie as loyalty test: when a leader says something obviously false, believing it becomes a signal of group commitment. The more absurd the claim, the stronger the loyalty signal — publicly repeating it proves you're truly one of us, not a fence-sitter.",
+      "query": "站队 表忠心 说违心话 明知不对还附和 loyalty test absurd claim"
+    },
+    {
+      "concept": "Emotional truth overrides factual truth: a false claim can communicate a felt reality — 'I see your anger,' 'the system is rigged against you' — that matters more than whether the specific numbers or events are accurate. The emotional content is real even when the factual content isn't.",
+      "query": "被理解 情绪共鸣 说中感受 感觉对了 even if wrong emotional resonance"
+    },
+    {
+      "concept": "Cynical rationalization: some voters know they're being lied to and don't care, because they assume all politicians lie, or they calculate the liar will still deliver on their real priorities, or the alternative feels worse. The lie becomes irrelevant to the voting calculus — what matters is who the liar is willing to fight.",
+      "query": "知道是假的 无所谓 两害相权 lesser evil 都一样 politicians lie still vote"
+    }
+  ],
+  "generated_at": "2026-05-22T19:37:34.988663",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

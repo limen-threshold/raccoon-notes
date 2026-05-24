@@ -1,0 +1,31 @@
+{
+  "slug": "你同意了那个用户协议但你真的读了吗",
+  "category": "⚖ ️ 法律与权利",
+  "subgroup": "",
+  "title": "你同意了那个用户协议但你真的读了吗",
+  "outline": [
+    {
+      "concept": "Reading everything is mathematically impossible: the average internet user encounters so many privacy policies and terms of service that reading them all would take roughly 76 full work days per year. The consent system is structurally designed for you to not read.",
+      "query": "快速点击同意 注册跳过条款 没读就点agree sign up without reading"
+    },
+    {
+      "concept": "Clickwrap agreements are legally binding: clicking 'I Agree' creates an enforceable contract. Courts have upheld these even when users clearly didn't read the terms, because you had the 'opportunity' to do so. Your click counts as legal consent regardless of whether you actually understood anything.",
+      "query": "勾选我同意 用户协议 法律约束 点击即同意 click agree legally binding"
+    },
+    {
+      "concept": "These are contracts of adhesion — take-it-or-leave-it agreements with zero negotiation. One party writes every clause; your only choice is accept all of it or don't use the service. The power asymmetry is baked into the legal structure, and 'agreement' is a misnomer.",
+      "query": "没有选择只能接受 无法协商条款 不接受就不能用 no choice but accept"
+    },
+    {
+      "concept": "Buried in fine print you've likely surrendered: the right to sue (mandatory arbitration), class action waivers, broad data sharing permissions, licenses to your uploaded content, and unilateral modification clauses — meaning they can change terms later and you auto-agree by continuing to use the service.",
+      "query": "放弃起诉权 仲裁 数据被卖 内容归平台 mandatory arbitration data ownership"
+    },
+    {
+      "concept": "The opacity is a feature: dense legalese, key clauses buried in walls of text, tiny scroll boxes, and 'Agree' buttons in bright colors while 'Read More' is grayed out — these design choices systematically prevent informed consent while maintaining legal cover. The system doesn't want you to read.",
+      "query": "小字条款 故意写得很长 难懂的法律术语 滚动才能看 fine print scroll"
+    }
+  ],
+  "generated_at": "2026-05-22T19:47:54.078779",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

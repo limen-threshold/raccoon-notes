@@ -1,0 +1,27 @@
+{
+  "slug": "呵呵_的语义变迁_语言怎么在你眼皮底下变的",
+  "category": "🗣 ️ 语言学",
+  "subgroup": "",
+  "title": "\"呵呵\"的语义变迁——语言怎么在你眼皮底下变的",
+  "outline": [
+    {
+      "concept": "Words can flip meaning while you're still using them. '呵呵' went from friendly acknowledgment to sarcastic dismissal in about a decade, and most speakers shifted their own usage without noticing—until someone pointed it out and they couldn't unsee it.",
+      "query": "呵呵 聊天记录 以前 现在 语气变了"
+    },
+    {
+      "concept": "Invited inference—when '呵呵' kept appearing in contexts where the speaker clearly wasn't amused (awkward silences, forced politeness, wanting to end a conversation), listeners inferred sarcasm or dismissal from the mismatch between the word and the situation. After enough repetitions, the inference migrated into the word itself.",
+      "query": "说呵呵 其实不想聊 敷衍 冷场 尴尬笑"
+    },
+    {
+      "concept": "Context frequency decides which meaning survives. Online chat produced far more instances of '呵呵' as a filler or polite exit than as genuine amusement. When the dismissive context vastly outnumbers the sincere one, the dismissive reading becomes the default. Semantic shift follows usage statistics, not logic.",
+      "query": "打字呵呵 微信 没话说 敷衍回复 结束对话"
+    },
+    {
+      "concept": "Metalinguistic awareness completes the shift. Once people started explicitly discussing the change ('呵呵现在就是骂人'), the new meaning locked in—you can no longer use '呵呵' innocently because you and everyone else now know what it 'really means.' Awareness of a semantic shift is part of what makes it irreversible.",
+      "query": "别人说呵呵 讽刺 网络热词 语义变化 解释讨论"
+    }
+  ],
+  "generated_at": "2026-05-22T20:29:37.259580",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

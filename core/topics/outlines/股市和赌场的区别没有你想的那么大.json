@@ -1,0 +1,31 @@
+{
+  "slug": "股市和赌场的区别没有你想的那么大",
+  "category": "💰 经济与商业",
+  "subgroup": "",
+  "title": "股市和赌场的区别没有你想的那么大",
+  "outline": [
+    {
+      "concept": "Both markets and casinos have a 'house' that profits from every transaction regardless of your outcome — brokers, exchanges, and market makers collect fees, spreads, and commissions on each trade, meaning your expected return is negative before you even begin, structurally identical to a casino's house edge.",
+      "query": "手续费 佣金 交易成本 券商 割韭菜"
+    },
+    {
+      "concept": "The illusion of control makes you attribute wins to skill and losses to bad luck in both settings. Active traders consistently underperform index funds because they trade too much, believing each decision is informed, when most short-term price movements are random noise — just like a gambler's 'system.'",
+      "query": "频繁交易 亏钱 自以为懂 技术分析 运气"
+    },
+    {
+      "concept": "Both use variable ratio reinforcement — unpredictable, intermittent wins are the most psychologically addictive reward pattern. An occasional big return keeps retail investors hooked the same way an occasional jackpot keeps gamblers pulling the lever, even when the overall account is bleeding.",
+      "query": "赚过一次 加仓 上瘾 止不住 暴涨"
+    },
+    {
+      "concept": "Loss aversion drives loss-chasing in both domains — averaging down on a falling stock is structurally the same as doubling your bet after losing. The pain of realizing a loss feels worse than the risk of losing more, so you throw good money after bad rather than walk away.",
+      "query": "补仓 套牢 加仓摊平 不甘心 亏损"
+    },
+    {
+      "concept": "The one real difference is the mathematical structure over time: casinos are negative-sum (the house edge guarantees aggregate player losses), while stock markets are positive-sum over long periods because companies create real economic value. Short-term speculation after fees approximates negative-sum — which is why day trading is gambling, but buy-and-hold investing is not.",
+      "query": "长期持有 指数基金 短线投机 真正赚钱 时间"
+    }
+  ],
+  "generated_at": "2026-05-22T19:38:22.036302",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

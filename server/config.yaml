@@ -5,7 +5,7 @@
 # LLM for mapping memory → knowledge + generating lessons
 anthropic:
   model: claude-sonnet-4-6
-  max_tokens: 2048
+  max_tokens: 4096  # bumped from 2048: 5-concept WEAVE outputs hit ~2837 tokens
   # api_key: set via ANTHROPIC_API_KEY env var
 
 # Anchor memory source — used when memory_source.type == "anchor"

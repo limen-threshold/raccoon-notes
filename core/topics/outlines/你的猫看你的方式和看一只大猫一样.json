@@ -1,0 +1,31 @@
+{
+  "slug": "你的猫看你的方式和看一只大猫一样",
+  "category": "🐾 动物行为学",
+  "subgroup": "",
+  "title": "你的猫看你的方式和看一只大猫一样",
+  "outline": [
+    {
+      "concept": "Cats don't have a separate social category for 'human.' Behaviorally, they process you as a large, non-hostile conspecific—another cat, just bigger and weirdly shaped. They deploy the same social grammar toward you that they'd use with another cat, with no specialized human-directed signals.",
+      "query": "猫 盯我 眼神 当成 同类 大猫"
+    },
+    {
+      "concept": "Adult cats almost never meow at other adult cats—meowing is a kitten-to-mother solicitation call. When your grown cat meows at you, it's displaying neotenic (juvenile-retained) behavior: treating you as a maternal figure, the same way a kitten would beg its mother for care.",
+      "query": "猫 对我叫 喵 成年猫 小猫叫 撒娇"
+    },
+    {
+      "concept": "Slow blinking, head bunting (rubbing scent glands on you), and allogrooming are cat-to-cat affiliative signals with specific social functions. Your cat isn't simplifying these for you—it's running the same full social protocol it would with a trusted fellow cat.",
+      "query": "猫 慢眨眼 眯眼 头蹭 舔我 亲近"
+    },
+    {
+      "concept": "Dogs co-evolved with humans for ~30,000 years and developed dedicated human-reading abilities (comprehending pointing, using eye contact as bonding). Cats domesticated themselves ~10,000 years ago with zero selection for human-specific communication—they simply mapped their existing feline social system onto us.",
+      "query": "狗 懂手势 指方向 眼神交流 猫 不理人 对比"
+    },
+    {
+      "concept": "Your cat's affection isn't 'less real' because it's cat-cat signaling—it's the genuine article. A slow blink means 'I trust you and feel safe' in cat, and your cat means it identically whether blinking at you or another cat. The signal didn't dilute; the recipient just changed.",
+      "query": "猫 信任我 依赖 真感情 喜欢 真心"
+    }
+  ],
+  "generated_at": "2026-05-22T21:27:12.608864",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

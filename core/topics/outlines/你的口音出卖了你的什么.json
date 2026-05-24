@@ -1,0 +1,27 @@
+{
+  "slug": "你的口音出卖了你的什么",
+  "category": "🗣 ️ 语言学",
+  "subgroup": "",
+  "title": "你的口音出卖了你的什么",
+  "outline": [
+    {
+      "concept": "Accent bundles geography, class, education, and ethnicity into one signal you can't selectively mute. A single phonological feature — r-dropping, vowel merger, tone sandhi — can index several social categories simultaneously, and listeners decode the whole package whether you want them to or not.",
+      "query": "被猜到老家 口音判断出身 说普通话带乡音"
+    },
+    {
+      "concept": "Communication Accommodation Theory: speakers unconsciously converge their accent toward interlocutors they want to affiliate with, and diverge from those they want distance from. The shift happens below awareness and leaks your social stance before you've chosen a stance.",
+      "query": "跟不同人说话方式不同 不自觉模仿别人口音 见老板见朋友切换"
+    },
+    {
+      "concept": "Accent prestige hierarchy — in every speech community, certain accents are rated as more competent, trustworthy, and high-status, regardless of content. This bias is measurable in hiring, courtroom verdicts, and credibility ratings: same words, different accent, different outcome.",
+      "query": "口音被歧视 觉得哪种口音好听 面试因为口音吃亏"
+    },
+    {
+      "concept": "Covert prestige: non-standard accents carry hidden social capital within in-groups — solidarity, authenticity, loyalty. People resist shifting to the prestige accent because the payoff (status) is offset by the cost (sounding like you've abandoned your people). This is why accent persists across generations even when it 'shouldn't.'",
+      "query": "故意不说标准普通话 老乡见面说方言 坚持不改口音"
+    }
+  ],
+  "generated_at": "2026-05-22T20:26:52.196760",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

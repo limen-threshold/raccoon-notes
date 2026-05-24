@@ -1,0 +1,27 @@
+{
+  "slug": "尼安德特人不笨_他们会埋葬死者还会画画",
+  "category": "🏛 ️ 考古与人类学",
+  "subgroup": "",
+  "title": "尼安德特人不笨——他们会埋葬死者还会画画",
+  "outline": [
+    {
+      "concept": "尼安德特人被塑造成粗鲁野蛮的原始人，但这个形象更多来自早期研究者的偏见而非化石证据——1911年Boule的重建故意把姿态画成弯腰驼背、猿一样的样子，这个错误形象统治了近百年。",
+      "query": "偏见 第一印象 刻板印象 误解 stereotype bias wrong assumption"
+    },
+    {
+      "concept": "多个遗址（Shanidar、Kebara）发现尼安德特人刻意挖掘墓穴、摆放尸体，有的伴有花粉或工具——这不是随便丢弃遗体，而是有意识的埋葬行为，暗示他们对死亡有认知，甚至可能有某种仪式感。",
+      "query": "葬礼 告别 死亡 仪式 送别 burial funeral ritual goodbye"
+    },
+    {
+      "concept": "西班牙三个洞穴的红色几何壁画经铀系法测定超过6.5万年，远早于智人到达欧洲——这是尼安德特人画的。加上他们使用红赭石颜料、串鹰爪做饰品，说明他们具备符号思维和审美冲动，不只是实用主义工具制造者。",
+      "query": "画画 涂鸦 装饰 创作 艺术 painting art creative decoration"
+    },
+    {
+      "concept": "我们习惯把'认知革命'当成智人的独家专利，但尼安德特人的埋葬、绘画、饰品都出现在智人到达欧洲之前——复杂心智不是某一种人的突变，而是多个人属物种共有的潜力，只是表达方式不同。",
+      "query": "优越感 人类中心 独特 智力 superiority unique intelligence human exceptionalism"
+    }
+  ],
+  "generated_at": "2026-05-22T19:13:27.293888",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

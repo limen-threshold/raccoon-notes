@@ -1,0 +1,27 @@
+{
+  "slug": "你能不能同时爱两个人_关于多元关系",
+  "category": "💔 关系与亲密",
+  "subgroup": "",
+  "title": "你能不能同时爱两个人——关于多元关系",
+  "outline": [
+    {
+      "concept": "Love doesn't follow zero-sum logic — the 'pie fallacy.' Having a second child doesn't mean loving the first less; attachment capacity expands rather than divides. New romantic feelings work the same way — they don't automatically subtract from existing ones, though they do redistribute attention.",
+      "query": "二胎 还爱老大 新朋友 旧朋友 爱被分走 养宠物"
+    },
+    {
+      "concept": "Different relationships satisfy different attachment dimensions. One person might offer emotional safety and routine, another novelty and intensity. Loving two people often means different configurations of intimacy needs being met — not two people competing for the same slot.",
+      "query": "不同朋友 不同需求 倾诉对象 玩伴 安慰 冒险 互补"
+    },
+    {
+      "concept": "Jealousy isn't evidence that love has limits — it's a threat-detection signal about perceived resource scarcity (time, attention, specialness). Compersion — feeling joy at a partner's happiness with someone else — isn't innate; it emerges when security is high and threat perception is low.",
+      "query": "嫉妒 占有欲 伴侣和别人开心 不安全感 compersion 吃醋"
+    },
+    {
+      "concept": "The real constraint on loving multiple people isn't emotional capacity — it's logistical. Time, energy, and the cognitive load of negotiation don't scale with feelings. Polyamory fails not because love runs out, but because coordination and boundary-maintenance require skills most people were never taught.",
+      "query": "时间不够 安排冲突 沟通疲惫 边界 协调 多线操作 精力分配"
+    }
+  ],
+  "generated_at": "2026-05-22T21:41:44.582400",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

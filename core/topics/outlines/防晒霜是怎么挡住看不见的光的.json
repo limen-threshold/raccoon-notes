@@ -1,0 +1,27 @@
+{
+  "slug": "防晒霜是怎么挡住看不见的光的",
+  "category": "🧪 化学",
+  "subgroup": "",
+  "title": "防晒霜是怎么挡住看不见的光的",
+  "outline": [
+    {
+      "concept": "UV photons carry more energy per photon than visible light — enough to snap chemical bonds in your DNA. Sunburn isn't from heat; it's from invisible photons doing molecular-level demolition.",
+      "query": "阴天晒伤 没感觉热 紫外线 看不见 晒红"
+    },
+    {
+      "concept": "Physical sunscreens (zinc oxide, titanium dioxide) are nano-scale mirrors: their particles scatter and reflect UV photons away from skin. Same stuff as white paint pigment, just ground small enough to not look chalky — mostly.",
+      "query": "防晒霜泛白 涂完发白 物理防晒 氧化锌 白泥"
+    },
+    {
+      "concept": "Chemical sunscreens are molecular shock absorbers: their conjugated π-electron systems absorb a UV photon, an electron jumps to an excited state, then the molecule relaxes by dumping that energy as tiny heat vibrations — the photon never reaches your skin cells.",
+      "query": "涂防晒发热 化学防晒 吸收 转化 分子 电子跃迁"
+    },
+    {
+      "concept": "One molecule can't cover all UV wavelengths. UVB (280-320nm, burning) and UVA (320-400nm, aging/penetrates deeper) need different absorbers. Broad-spectrum sunscreen is literally a cocktail of molecules, each covering a different UV band.",
+      "query": "UVA UVB 广谱防晒 抗老 选防晒 SPF PA"
+    }
+  ],
+  "generated_at": "2026-05-22T18:30:53.996390",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "你拍照总是歪的_构图到底在控制什么",
+  "category": "🎨 艺术与设计",
+  "subgroup": "",
+  "title": "你拍照总是歪的——构图到底在控制什么",
+  "outline": [
+    {
+      "concept": "Your visual system auto-levels the world using horizon detection and vestibular input — you literally perceive the scene as straighter than it is. The camera records the raw tilt with no correction, so you don't notice the crookedness until you review the photo and your brain can no longer override the frame boundary.",
+      "query": "拍照 歪 水平线 看不出来 直觉 修正 tilted photo didn't notice"
+    },
+    {
+      "concept": "The body introduces systematic tilt bias: your grip angle, head tilt, shoulder asymmetry, and handedness create a consistent direction of crookedness. Most people always tilt the same way — left or right — because it's a posture habit, not random error.",
+      "query": "拍照 总是往一边歪 习惯 左手 右手 握持 姿势 grip posture tilt direction"
+    },
+    {
+      "concept": "Visual gravity: edges and lines in a frame create directional pulls that move the eye along paths. The horizon is the dominant anchor line — when it's crooked, it generates unresolved tension that fights every other line in the image, making the whole frame feel wrong even if viewers can't name why.",
+      "query": "构图 线条 视觉引导 视线 移动 水平线 不舒服 visual gravity lines tension"
+    },
+    {
+      "concept": "Composition is tension management, not rule-following. Rule of thirds, leading lines — these are heuristics for distributing visual forces. A deliberate Dutch angle works because the tension serves narrative intent; an accidental tilt fails because the same tension is noise. The difference is control, not the rule itself.",
+      "query": "荷兰角 故意歪 构图规则 打破 张力 叙事 Dutch angle intentional tension"
+    }
+  ],
+  "generated_at": "2026-05-22T19:54:22.537723",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

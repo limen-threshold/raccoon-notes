@@ -34,6 +34,7 @@ def run_lesson(
     outline: list[dict],
     memory_source: Optional[dict] = None,
     n_memories_per_concept: int = 5,
+    reflection_depth: str = "deep",
 ) -> dict:
     """Run the full pipeline for one topic.
 
@@ -81,7 +82,8 @@ def run_lesson(
             seen.add(mid)
             unique_memories.append(mem)
 
-    lesson = generator.generate_lesson(topic, mappings, unique_memories)
+    lesson = generator.generate_lesson(topic, mappings, unique_memories,
+                                       reflection_depth=reflection_depth)
 
     # Attach diagnostics so the server can return debugging info on failures
     lesson.setdefault("_diagnostics", {})

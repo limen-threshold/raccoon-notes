@@ -1,0 +1,27 @@
+{
+  "slug": "为什么日本的设计看起来就是干净",
+  "category": "🎨 艺术与设计",
+  "subgroup": "",
+  "title": "为什么日本的设计看起来就是干净",
+  "outline": [
+    {
+      "concept": "Ma (間): the empty space is designed, not leftover. In Japanese design, the gaps between elements carry the same compositional weight as the filled areas. What reads as 'clean' is actually the result of treating void as a material — you're seeing an intentional absence, not a lack of content.",
+      "query": "留白 空白 排版 间距 页面 布局 empty space"
+    },
+    {
+      "concept": "Subtraction-first process: remove until it breaks, then add one thing back. Rooted in wabi-sabi and Zen aesthetics, the method is elimination — strip elements until the design stops functioning, then restore the minimum. Everything that survived the cut had to earn its place, so nothing feels accidental or excess.",
+      "query": "删减 简化 去掉 减法 多余 改稿 simplify remove"
+    },
+    {
+      "concept": "Hierarchy through proximity, not emphasis. Western design makes important things louder — bigger, bolder, bordered, colored. Japanese design makes important things more isolated — giving them more surrounding space so proximity alone signals structure. The 'clean' look is the absence of visual shouting.",
+      "query": "层次 对比 加粗 边框 重点 间距 排版 hierarchy emphasis"
+    },
+    {
+      "concept": "Color scarcity makes color carry meaning. Most Japanese design runs near-neutral with one strategic accent. When color appears rarely, each instance carries more information per use — a single red dot on white does more work than five competing hues. The calm impression comes from nothing fighting for attention.",
+      "query": "配色 单色 黑白 强调色 点缀 色彩 颜色 accent color palette"
+    }
+  ],
+  "generated_at": "2026-05-22T19:57:08.740678",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

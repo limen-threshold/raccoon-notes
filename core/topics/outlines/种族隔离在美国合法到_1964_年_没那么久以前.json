@@ -1,0 +1,31 @@
+{
+  "slug": "种族隔离在美国合法到_1964_年_没那么久以前",
+  "category": "⚖ ️ 法律与权利",
+  "subgroup": "",
+  "title": "种族隔离在美国合法到 1964 年——没那么久以前",
+  "outline": [
+    {
+      "concept": "1964 is within one generation — your parents or grandparents likely lived in legally segregated America. This isn't ancient history; it's family memory.",
+      "query": "父母 祖父母 成长 美国 segregation 亲身经历"
+    },
+    {
+      "concept": "Segregation wasn't social custom — it was state law. Governments criminalized integrated schools, buses, restaurants. Breaking these laws meant arrest, not just social disapproval.",
+      "query": "法律 强制 分离 学校 巴士 餐厅 Jim Crow arrest"
+    },
+    {
+      "concept": "The Supreme Court's 'separate but equal' doctrine (Plessy v Ferguson, 1896) gave constitutional cover: the legal fiction that segregated facilities could be equal, when they systematically, deliberately weren't.",
+      "query": "separate but equal 最高法院 Plessy 宪法 合法 掩饰 不平等"
+    },
+    {
+      "concept": "Brown v Board (1954) declared school segregation unconstitutional, but court rulings alone lack enforcement teeth. Real desegregation required the 1964 Civil Rights Act's threat to cut federal funding — money talks louder than precedent.",
+      "query": "Brown v Board 1954 执行 Civil Rights Act 1964 联邦 资金 威胁"
+    },
+    {
+      "concept": "People who lived under legal segregation are still alive. The wealth gap, housing patterns, and institutional effects from state-mandated segregation persist across generations — the law changed; the accumulated damage didn't reset.",
+      "query": "亲历者 在世 代际 财富差距 housing segregation 持续影响"
+    }
+  ],
+  "generated_at": "2026-05-22T19:51:34.120354",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

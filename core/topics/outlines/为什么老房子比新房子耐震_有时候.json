@@ -1,0 +1,27 @@
+{
+  "slug": "为什么老房子比新房子耐震_有时候",
+  "category": "🏗 ️ 工程与建造",
+  "subgroup": "",
+  "title": "为什么老房子比新房子耐震——有时候",
+  "outline": [
+    {
+      "concept": "Accidental overstrength: old builders couldn't precisely calculate loads, so they overbuilt massively. A timber beam sized by eye or tradition ends up 3-5x stronger than needed — not because they were smarter, but because they couldn't afford to be precise.",
+      "query": "老房子 厚墙 粗梁 超出需要 overbuilt 安全余量"
+    },
+    {
+      "concept": "Ductility beats strength in earthquakes: structures that can deform without collapsing survive better than rigid ones that snap. Old timber frames and lime-mortar masonry flex and crack in small ways that dissipate seismic energy — they bend, they don't break.",
+      "query": "木材 弯曲 变形 没断 flexible 裂而不倒 吸收能量"
+    },
+    {
+      "concept": "The modern brittle trap: reinforced concrete that's under-reinforced or poorly detailed is rigid until catastrophic failure. A 'strong' concrete column with insufficient ties doesn't bend — it explodes. Some new construction is strong but brittle, which is the worst combo in a quake.",
+      "query": "混凝土 突然断裂 脆性 钢筋不够 瞬间倒塌 brittle"
+    },
+    {
+      "concept": "Survivorship bias distorts the comparison: we only see old houses that survived past earthquakes. The ones that collapsed are gone and forgotten. The real lesson isn't 'old is better' — it's that ductility (deformation capacity) matters more than raw strength, and modern seismic design actually builds on this principle.",
+      "query": "倒塌 看不到了 幸存者偏差 survivorship 只看到没倒的"
+    }
+  ],
+  "generated_at": "2026-05-22T21:03:44.794310",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

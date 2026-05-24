@@ -1,0 +1,27 @@
+{
+  "slug": "如何用数学证明你的直觉是错的_贝叶斯定理",
+  "category": "🔢 数学与逻辑",
+  "subgroup": "",
+  "title": "如何用数学证明你的直觉是错的——贝叶斯定理",
+  "outline": [
+    {
+      "concept": "Base rate neglect: your intuition automatically focuses on how reliable the evidence seems, but silently drops how common the outcome was before you saw any evidence. A 99% accurate test for a disease that affects 1 in 10,000 people still means a positive result is almost certainly wrong — your gut refuses this.",
+      "query": "直觉 判断 准确率 阳性 概率 忽略 常见 base rate 先入为主"
+    },
+    {
+      "concept": "False positive trap: when a condition is rare, the huge pool of healthy people each generating a small chance of false alarm produces far more false positives than the tiny pool of sick people produces true positives. The numerator (true positives) is small; the denominator (all positives) is flooded with noise.",
+      "query": "体检 报告 阳性 误诊 担心 假阳性 准确率 false positive 测出"
+    },
+    {
+      "concept": "Prior strength governs how much evidence moves you: a strong prior (something very likely or very unlikely) demands extraordinary evidence to overturn; a weak prior flips on modest evidence. One bad review changes your mind about a restaurant you've never heard of, but not about your favorite one.",
+      "query": "改变看法 第一印象 信任 偏见 经验 累积 一次 反转 prior belief"
+    },
+    {
+      "concept": "The corrective habit is always asking 'how common was this before I got the evidence?' — not replacing intuition with math, but adding the one question your intuition systematically skips. Most probability errors collapse once you retrieve the base rate.",
+      "query": "反思 质疑 直觉 以为 其实 先验 问自己 多常见 冷静 reconsider"
+    }
+  ],
+  "generated_at": "2026-05-22T18:40:28.895812",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

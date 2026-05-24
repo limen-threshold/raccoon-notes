@@ -1,0 +1,27 @@
+{
+  "slug": "为什么读小说比看新闻更能理解世界",
+  "category": "📚 文学",
+  "subgroup": "",
+  "title": "为什么读小说比看新闻更能理解世界",
+  "outline": [
+    {
+      "concept": "News delivers outcomes; novels reconstruct process. A headline tells you what happened — someone defected, surrendered, snapped. Understanding why requires seeing the chain of small decisions and constraints that made that outcome feel inevitable from the inside. Without the process, the fact is just noise.",
+      "query": "新闻 标题 只知道结果 不理解为什么 决策过程"
+    },
+    {
+      "concept": "Narrative transportation forces your brain to simulate another person's reasoning under pressure as if it were your own. This isn't collecting facts about someone — it's running their logic on your cognitive hardware. That's how you build a working model of other minds, not by observing them from outside but by temporarily becoming them.",
+      "query": "读小说 沉浸 代入 角色 理解动机 为什么那么做"
+    },
+    {
+      "concept": "News has extreme selection bias toward the rare and shocking, which warps your sense of what's probable (availability heuristic). Novels, paradoxically, often illuminate ordinary human dilemmas that are far more representative of how life actually works — even though they're 'made up.' A well-constructed fiction can be statistically more truthful than a curated feed of exceptions.",
+      "query": "新闻 震惊 以为很常见 日常困境 小说 更真实 偏见"
+    },
+    {
+      "concept": "Understanding is predictive capacity, not information accumulation. News adds data points; novels upgrade the inference engine — your ability to anticipate how people will act in situations you've never encountered. Someone who has rehearsed hundreds of interior lives in fiction can often navigate real social complexity better than someone who has memorized a thousand headlines.",
+      "query": "预测 判断 别人会怎么做 社交直觉 读小说 经验 预判"
+    }
+  ],
+  "generated_at": "2026-05-22T20:16:33.855161",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

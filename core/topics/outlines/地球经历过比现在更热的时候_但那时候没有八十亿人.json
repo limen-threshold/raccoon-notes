@@ -1,0 +1,27 @@
+{
+  "slug": "地球经历过比现在更热的时候_但那时候没有八十亿人",
+  "category": "🌱 生态、环境与气候",
+  "subgroup": "",
+  "title": "地球经历过比现在更热的时候——但那时候没有八十亿人",
+  "outline": [
+    {
+      "concept": "Earth has been far hotter before — the PETM ~56 million years ago saw global temps 5-8°C above present, with crocodiles in the Arctic and palm trees in Antarctica. The planet and life don't inherently 'suffer' from warmth; given enough time, ecosystems reorganize and thrive. The 'crisis' framing isn't about temperature itself.",
+      "query": "纪录片 恐龙 北极 温暖 古气候 化石"
+    },
+    {
+      "concept": "The critical variable is rate of change, not absolute temperature. The PETM's massive carbon release unfolded over ~20,000 years; current forcing is on a ~200-year timescale. Species can migrate or evolve given millennia, but when climate zones shift faster than trees can seed poleward, you get ecological whiplash — not gentle reorganization.",
+      "query": "物种 灭绝 来不及 迁移 适应 变化太快"
+    },
+    {
+      "concept": "Human infrastructure is spatially locked to Holocene stability — coastal megacities at current sea levels, grain belts at current rain bands, reservoirs at current snowpack patterns. Unlike other species that can gradually shift range, a city of 20 million cannot simply 'migrate' 300km north over a decade.",
+      "query": "洪水 城市 搬不走 基建 海平面 农田 干旱"
+    },
+    {
+      "concept": "Population density + global interdependence creates cascade risk that has no paleo-analog. When 8 billion people depend on synchronized supply chains — a wheat failure in one region spikes bread prices in forty countries — a climate shock doesn't just displace; it propagates through systems that didn't exist in any past warm period.",
+      "query": "粮价 涨 供应链 断 短缺 连锁反应 依赖"
+    }
+  ],
+  "generated_at": "2026-05-22T21:12:11.661881",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

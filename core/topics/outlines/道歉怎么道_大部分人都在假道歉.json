@@ -1,0 +1,27 @@
+{
+  "slug": "道歉怎么道_大部分人都在假道歉",
+  "category": "🔑 生活技能",
+  "subgroup": "",
+  "title": "道歉怎么道——大部分人都在假道歉",
+  "outline": [
+    {
+      "concept": "Non-apologies use specific linguistic patterns to shift blame while appearing apologetic: 'I'm sorry you felt that way' makes their feelings the problem, not your action; 'I'm sorry but...' negates with justification; 'I apologize if...' makes it conditional. The form looks like an apology; the function is escape.",
+      "query": "道歉 但是 委屈 \"对不起但是\" \"不好意思让你\" 推卸 找借口"
+    },
+    {
+      "concept": "Self-image protection drives fake apologies. Admitting you harmed someone threatens your identity as a good person, so you craft statements that harvest the social credit of apologizing without actually surrendering accountability. The apology is for your reputation, not for them.",
+      "query": "不想认错 丢面子 好人 自尊心 承认错误 困难 撑着"
+    },
+    {
+      "concept": "Intent ≠ impact, and 'I didn't mean to' is the most common escape hatch. Your good intent doesn't cancel their real harm. A real apology requires acknowledging that good people can cause damage, and that your intent is irrelevant to what they experienced.",
+      "query": "\"我不是故意的\" 好心办坏事 伤害 无意 结果 冤枉"
+    },
+    {
+      "concept": "A real apology has three necessary components: (a) name specifically what you did wrong—no vagueness; (b) acknowledge the impact on them without centering your intent; (c) commit to concrete change or repair. Missing any one, the apology fails to land. All three together are what make it costly enough to be real.",
+      "query": "真诚道歉 改正 具体哪里错 承认伤害 补偿 做法 下次"
+    }
+  ],
+  "generated_at": "2026-05-22T21:56:48.461347",
+  "model": "glm-5.1",
+  "fact_check_status": "pending"
+}

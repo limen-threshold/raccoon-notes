@@ -31,6 +31,19 @@ from pathlib import Path
 # Ensure package imports work
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+# Load .env for ANTHROPIC_API_KEY when launched outside an interactive shell
+try:
+    from dotenv import load_dotenv
+    for env_path in (
+        Path(__file__).parent.parent / ".env",
+        Path.home() / "claude-home" / ".env",
+    ):
+        if env_path.exists():
+            load_dotenv(env_path)
+            break
+except ImportError:
+    pass
+
 try:
     from mcp.server import Server, NotificationOptions
     from mcp.server.models import InitializationOptions
@@ -108,6 +121,19 @@ async def list_tools() -> list[types.Tool]:
                         "description": "How many memories to retrieve per concept. Default 5.",
                         "default": 5,
                     },
+                    "reflection_depth": {
+                        "type": "string",
+                        "enum": ["deep", "light"],
+                        "description": (
+                            "How pointed the closing reflection prompts should be. "
+                            "'deep' (default) asks excavating questions tied to the cited memory — "
+                            "expects the user wants to feel something specific. "
+                            "'light' asks gentler, curiosity-shaped questions the user can answer "
+                            "briefly or skip — for moments when the user wants the lesson without "
+                            "being pried open."
+                        ),
+                        "default": "deep",
+                    },
                 },
             },
         ),
@@ -146,6 +172,7 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
         outline,
         arguments.get("memory_source"),
         int(arguments.get("n_memories_per_concept", 5)),
+        arguments.get("reflection_depth", "deep"),
     )
 
     return [types.TextContent(type="text", text=json.dumps(lesson, ensure_ascii=False))]
