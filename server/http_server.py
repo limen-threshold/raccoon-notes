@@ -52,12 +52,10 @@ from core import pipeline
 
 
 def _load_config() -> dict:
-    cfg_path = Path(__file__).parent / "config.yaml"
-    if not cfg_path.exists():
-        return {}
+    """Delegate to shared loader (config.local.yaml + env overrides)."""
     try:
-        import yaml
-        return yaml.safe_load(cfg_path.read_text()) or {}
+        from core.config import load as _shared_load
+        return _shared_load()
     except Exception:
         return {}
 

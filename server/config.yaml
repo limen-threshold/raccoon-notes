@@ -1,6 +1,9 @@
 # Raccoon Notes — runtime config
 #
-# Override via env vars: RACCOON_<KEY> (e.g. RACCOON_ANTHROPIC_API_KEY)
+# This is the default / committed config. For private overrides (private
+# memory endpoints, deployment-specific paths), create `config.local.yaml`
+# alongside this file — it's gitignored and loaded with higher precedence.
+# Env vars also override: RACCOON_<KEY> (e.g. RACCOON_ANTHROPIC_API_KEY).
 
 # LLM for mapping memory → knowledge + generating lessons
 anthropic:
@@ -8,13 +11,22 @@ anthropic:
   max_tokens: 4096  # bumped from 2048: 5-concept WEAVE outputs hit ~2837 tokens
   # api_key: set via ANTHROPIC_API_KEY env var
 
-# Anchor memory source — used when memory_source.type == "anchor"
-anchor:
-  endpoint: http://localhost:8000   # gateway base url
-  search_path: /limen/search        # or /memory/search depending on deployment
+# Memory source — generic HTTP search endpoint.
+#
+# The defaults below are placeholders. Your memory provider must expose a
+# GET endpoint that accepts `q` and `n` query params and returns JSON of
+# shape `{"memories": [{"memory_id", "snippet", ...}, ...]}`.
+#
+# To point this at Anchor Memory: set endpoint to your Anchor gateway and
+# search_path to whatever search route you expose. To use a different
+# memory backend, write a small HTTP adapter that matches the response
+# shape.
+memory:
+  endpoint: http://localhost:8000
+  search_path: /memories/search
   default_n_results: 5
 
-# Tavily for fact-checking custom topics (#5, later)
+# Tavily for fact-checking custom topics (later)
 tavily:
   # api_key: set via TAVILY_API_KEY env var
   max_results: 5

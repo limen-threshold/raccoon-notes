@@ -32,10 +32,15 @@ def retrieve(memory_source: dict, query: str, n: int = 5) -> list[dict]:
     """Fetch memories from the source. Returns [] on any failure — never raises.
 
     memory_source schema:
-        {"type": "anchor", "endpoint": "http://localhost:8000", "search_path": "/limen/search"}
+        {"type": "anchor", "endpoint": "http://localhost:8000", "search_path": "/memories/search"}
         {"type": "mcp_memory", ...}     # not implemented yet
         {"type": "raw_chat", "text": "..."}  # not implemented yet
         {"type": "none"}                 # explicit no-memory mode
+
+    The defaults shown for the "anchor" type are placeholders only. Provider-
+    internal route names (Anchor's actual search path, auth, etc.) belong in
+    server/config.local.yaml or in the explicit memory_source dict passed by
+    the caller — never hard-coded here.
 
     Returns at most n memories, sorted by source-defined relevance.
     """
@@ -56,9 +61,25 @@ def retrieve(memory_source: dict, query: str, n: int = 5) -> list[dict]:
 
 
 def _retrieve_anchor(src: dict, query: str, n: int) -> list[dict]:
-    """Hit Anchor's HTTP search endpoint."""
-    endpoint = src.get("endpoint", "http://localhost:8000").rstrip("/")
-    search_path = src.get("search_path", "/limen/search")
+    """Hit Anchor's HTTP search endpoint.
+
+    endpoint + search_path come from (in priority order):
+      1. the memory_source dict the caller passes (preferred)
+      2. config.local.yaml's `memory:` section (private deployment)
+      3. config.yaml defaults (generic placeholders)
+    """
+    # Lazy import to avoid cycles
+    try:
+        from .config import load as _cfg_load
+        _mem_cfg = _cfg_load().get("memory", {})
+    except Exception:
+        _mem_cfg = {}
+    endpoint = (src.get("endpoint")
+                or _mem_cfg.get("endpoint")
+                or "http://localhost:8000").rstrip("/")
+    search_path = (src.get("search_path")
+                   or _mem_cfg.get("search_path")
+                   or "/memories/search")
     url = f"{endpoint}{search_path}?{urllib.parse.urlencode({'q': query, 'n': n})}"
     try:
         with urllib.request.urlopen(url, timeout=15) as r:
@@ -115,7 +136,7 @@ def _retrieve_raw_chat(src: dict, query: str, n: int) -> list[dict]:
 if __name__ == "__main__":
     import sys
     query = sys.argv[1] if len(sys.argv) > 1 else "拖延"
-    src = {"type": "anchor", "endpoint": "http://localhost:8000", "search_path": "/limen/search"}
+    src = {"type": "anchor", "endpoint": "http://localhost:8000", "search_path": "/memories/search"}
     mems = retrieve(src, query, n=3)
     print(f"got {len(mems)} memories for query: {query!r}")
     for i, m in enumerate(mems):

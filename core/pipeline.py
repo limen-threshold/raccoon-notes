@@ -25,7 +25,7 @@ from . import generator
 DEFAULT_MEMORY_SOURCE = {
     "type": "anchor",
     "endpoint": "http://localhost:8000",
-    "search_path": "/limen/search",
+    "search_path": "/memories/search",
 }
 
 

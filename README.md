@@ -29,6 +29,20 @@ Named after a raccoon in a Shenzhen cat café who knew the cage was there and ju
 | **AI Spa** | Relationship maintenance — keeps the connection healthy |
 | **Raccoon Notes** | Relationship → value — turns shared experience into knowledge |
 
+## Pointing it at your memory
+
+`server/config.yaml` ships with generic placeholders (`http://localhost:8000` + `/memories/search`). To use Raccoon Notes with your own memory backend, create `server/config.local.yaml` next to it (gitignored) and override the `memory:` block:
+
+```yaml
+memory:
+  endpoint: http://your-host:port
+  search_path: /your/search/route
+```
+
+Your endpoint must accept `GET ?q=<query>&n=<count>` and return JSON of shape `{"memories": [{"memory_id", "snippet", ...}, ...]}`. Anything else can be adapted with a small HTTP wrapper.
+
+Environment variables also override: `RACCOON_MEMORY_ENDPOINT`, `RACCOON_MEMORY_SEARCH_PATH`, etc.
+
 ## Status
 
 🚧 Early development. Architecture spec in progress.

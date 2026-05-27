@@ -230,3 +230,8 @@ core/topics/sample_lessons/
 
 # Sonnet vs GLM outline comparison runs — intermediate / debug only.
 core/topics/outlines_sonnet_compare/
+
+# Private config — endpoint URLs / search paths specific to a deployment.
+# Provider-internal route names (like Anchor's /limen/* schema) belong in
+# config.local.yaml, not in the public-default config.yaml.
+server/config.local.yaml

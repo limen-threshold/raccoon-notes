@@ -45,12 +45,10 @@ def _get_client():
 
 
 def _load_config() -> dict:
-    cfg_path = Path(__file__).parent.parent / "server" / "config.yaml"
-    if not cfg_path.exists():
-        return {}
+    """Delegate to shared loader so config.local.yaml + env vars apply."""
     try:
-        import yaml
-        return yaml.safe_load(cfg_path.read_text()) or {}
+        from .config import load as _shared_load
+        return _shared_load()
     except Exception:
         return {}
 
@@ -398,7 +396,7 @@ if __name__ == "__main__":
     mappings = []
     for o in outline:
         mems = retrieve(
-            {"type": "anchor", "endpoint": "http://localhost:8000", "search_path": "/limen/search"},
+            {"type": "anchor", "endpoint": "http://localhost:8000", "search_path": "/memories/search"},
             o["query"], n=5,
         )
         all_memories.extend(mems)
